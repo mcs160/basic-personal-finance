@@ -21,14 +21,16 @@ body
 	padding-left: 20px;
 }
 
-.rounded
+#format 
 {
-	border: 5px solide #00b3b3;
-	padding: 20px;
-	width: 100px;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+    background: #00b3b3;
+    padding: 20px; 
+    width: 200px;
+    font-size: 36px;
+    border-radius: 0px 40px 40px 0px;
+    position: relative;
+    top: 200px;
+    left: 0px;
 }
 
 #main-info
