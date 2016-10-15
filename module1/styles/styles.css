@@ -29,6 +29,8 @@ body
     font-size: 36px;
     border-radius: 0px 40px 40px 0px;
     position: relative;
+    font-family: Georgia, Times, serif;
+	font-size: 28px;
     top: 200px;
     left: 0px;
 }
