@@ -21,24 +21,46 @@ body
 	padding-left: 20px;
 }
 
-#format 
+#format1 
+{
+    background: #cccccc;
+    padding: 15px; 
+    width: 700px;
+    font-size: 24px;
+    border-radius: 40px 0px 0px 40px;
+    position: relative;
+    font-family: Georgia, Times, serif;
+    top:0px;
+    left: 150px;
+}
+
+#format2 
 {
     background: #00b3b3;
-    padding: 20px; 
-    width: 200px;
-    font-size: 36px;
+    padding: 15px; 
+    width: 500px;
+    font-size: 20px;
     border-radius: 0px 40px 40px 0px;
     position: relative;
     font-family: Georgia, Times, serif;
-	font-size: 28px;
-    top: 200px;
+    top:0px;
     left: 0px;
 }
+
 
 #main-info
 {
 	float: left;
 	width: 627px;
+}
+
+#module-aside-info
+{
+	float: left;
+	width: 200px;
+	position: relative;
+	top: 80px;
+	padding-left: 10px;
 }
 
 #aside-info
@@ -67,7 +89,7 @@ body
 
 #sub-navigation
 {
-	background: #dddddd;	
+	background: #cccccc;	
 	padding: 5px;
 	width: 886px;
 	float: left;
