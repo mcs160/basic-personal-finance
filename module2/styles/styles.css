@@ -54,6 +54,15 @@ body
 	width: 627px;
 }
 
+#module-aside-info
+{
+	float: left;
+	width: 200px;
+	position: relative;
+	top: 80px;
+	padding-left: 10px;
+}
+
 #aside-info
 {
 	float: left;
@@ -71,7 +80,7 @@ body
 
 #navigation
 {
-	background: #666666;	
+	background: #000033;	
 	padding: 5px;
 	width: 100%;
 	float: left;
@@ -80,7 +89,7 @@ body
 
 #sub-navigation
 {
-	background: #dddddd;	
+	background: #cccccc;	
 	padding: 5px;
 	width: 100%;
 	float: left;
@@ -90,7 +99,7 @@ body
 
 #aside-title-audio
 {
-	background: #666666;
+	background: #000033;
 	width: 233px;
 	font-size: 14px;
 	font-weight: bold;
