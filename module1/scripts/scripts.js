@@ -26,8 +26,23 @@ function startCourse()
     		sessionStorage.setItem( "course_started", "1" );
     			
 			// set the values you want to persist throughout the website here
+    		
+    		sessionStorage.setItem( "visitPage01", "visited" );
+    		sessionStorage.setItem( "visitPage02", "unvisited" );
+    		sessionStorage.setItem( "visitPage03", "unvisited" );
+    		sessionStorage.setItem( "visitPage04", "unvisited" );
+    		sessionStorage.setItem( "visitPage05", "unvisited" );
+    		sessionStorage.setItem( "visitPage06", "unvisited" );
+    		sessionStorage.setItem( "visitPage07", "unvisited" );
+    		sessionStorage.setItem( "visitPage08", "unvisited" );
+    		sessionStorage.setItem( "visitPage09", "unvisited" );
+    		sessionStorage.setItem( "visitPage10", "unvisited" );
+    		sessionStorage.setItem( "visitPage11", "unvisited" );
+    		sessionStorage.setItem( "visitPage12", "unvisited" );
+    		sessionStorage.setItem( "visitPage13", "unvisited" );
         }
 	}
+
 	
 	// initializeSCORM after the OLM environment has been set up
 	initializeSCORM();
@@ -78,3 +93,105 @@ function finishCourse()
 	oScorm.save();
 	oScorm.quit();
 }
+
+function checkAllVisited()
+{
+	var page1 = sessionStorage.setItem( "visitPage01", "visited" );
+	var page2 = sessionStorage.setItem( "visitPage02", "unvisited" );
+	var page3 = sessionStorage.setItem( "visitPage03", "unvisited" );
+	var page4 = sessionStorage.setItem( "visitPage04", "unvisited" );
+	var page5 = sessionStorage.setItem( "visitPage05", "unvisited" );
+	var page6 = sessionStorage.setItem( "visitPage06", "unvisited" );
+	var page7 = sessionStorage.setItem( "visitPage07", "unvisited" );
+	var page8 = sessionStorage.setItem( "visitPage08", "unvisited" );
+	var page9 = sessionStorage.setItem( "visitPage09", "unvisited" );
+	var page10 = sessionStorage.setItem( "visitPage10", "unvisited" );
+	var page11 = sessionStorage.setItem( "visitPage11", "unvisited" );
+	var page12 = sessionStorage.setItem( "visitPage12", "unvisited" );
+	var page13 = sessionStorage.setItem( "visitPage13", "unvisited" );
+	
+	if ( page1 == "visited" && page2 == "visited" && page3 == "visited" && page4 == "visited" && page5 == "visited"  && page6 == "visited" && page7 == "visited" && page8 == "visited" && page9 == "visited" && page10 == "visited" && page11 == "visited" && && page13 == "visited)
+	{
+		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline";	
+	}
+}
+
+function visitPage1()
+{
+	sessionStorage.setItem( "visitPage1", "visited" );
+	checkAllVisited (); 
+}
+
+function visitPage2()
+{
+	sessionStorage.setItem( "visitPage2", "visited" );
+	checkAllVisited (); 
+}
+
+function visitPage3()
+{
+	sessionStorage.setItem( "visitPage3", "visited" );
+	checkAllVisited (); 
+}
+
+function visitPage4()
+{
+	sessionStorage.setItem( "visitPage4", "visited" );
+	checkAllVisited (); 
+}
+
+function visitPage5()
+{
+	sessionStorage.setItem( "visitPage5", "visited" );
+	checkAllVisited (); 
+}
+
+function visitPage6()
+{
+	sessionStorage.setItem( "visitPage6", "visited" );
+	checkAllVisited (); 
+}
+
+function visitPage7()
+{
+	sessionStorage.setItem( "visitPage7", "visited" );
+	checkAllVisited (); 
+}
+
+function visitPage8()
+{
+	sessionStorage.setItem( "visitPage8", "visited" );
+	checkAllVisited (); 
+}
+
+function visitPage9()
+{
+	sessionStorage.setItem( "visitPage9", "visited" );
+	checkAllVisited (); 
+}
+
+function visitPage10()
+{
+	sessionStorage.setItem( "visitPage10", "visited" );
+	checkAllVisited (); 
+}
+
+function visitPage11()
+{
+	sessionStorage.setItem( "visitPage11", "visited" );
+	checkAllVisited (); 
+}
+
+function visitPage12()
+{
+	sessionStorage.setItem( "visitPage12", "visited" );
+	checkAllVisited (); 
+}
+
+function visitPage13()
+{
+	sessionStorage.setItem( "visitPage13", "visited" );
+	checkAllVisited (); 
+}
+
+
