@@ -16,6 +16,12 @@ body
 	padding-left: 40px;
 }
 
+.header1
+{
+	  font-family: Arial, Verdana, serif;
+	  font-size: 18px;
+}
+
 #format1 
 {
     background: #cccccc;
