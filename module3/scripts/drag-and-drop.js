@@ -1,3 +1,5 @@
+// test
+
 // this holds the current dragger HTML element
 var oCurrentDragger = null;		
 
