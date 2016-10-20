@@ -1,4 +1,130 @@
 <!--
 The purpose of this page is to list the collective references utilized throughout the project.
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: Arial;
+}
 
+#banner
+{
+	height: 95px;
+	background:#000033;
+	top: 0px;
+	width: 100%;
+	Line-height: 1.5em;
+	font-family: Georgia, Times, serif;
+	font-size: 48px;
+	color: #ffffff;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+#format1 
+{
+    background: #cccccc;
+    padding: 15px; 
+    width: 700px;
+    font-size: 24px;
+    border-radius: 40px 0px 0px 40px;
+    position: relative;
+    font-family: Arial, Verdana, serif;
+    top:0px;
+    left: 150px;
+}
+
+#format2 
+{
+    background: #00b3b3;
+    padding: 15px; 
+    width: 500px;
+    font-size: 20px;
+    border-radius: 0px 40px 40px 0px;
+    position: relative;
+    font-family: Arial, Verdana, serif;
+    top:0px;
+    left: 0px;
+}
+
+
+#main-info
+{
+	float: left;
+	width: 627px;
+}
+
+#module-aside-info
+{
+	float: left;
+	width: 200px;
+	position: relative;
+	top: 80px;
+	padding-left: 10px;
+}
+
+#aside-info
+{
+	float: left;
+	width: 200px;
+	vertical-align: top;
+	padding-left: 10px;
+}
+	
+#main-content
+{
+	height: 368px;
+	padding: 10px;
+	margin: 10px;
+}
+
+#navigation
+{
+	background: #000033;	
+	padding: 5px;
+	width: 886px;
+	float: left;
+	height: 18px;
+}
+
+#sub-navigation
+{
+	background: #cccccc;	
+	padding: 5px;
+	width: 886px;
+	float: left;
+	height: 18px;
+	font-size: 14px;
+}
+
+#aside-title-audio
+{
+	background: #000033;
+	width: 233px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	padding: 5px;
+}
+
+#content-frame
+{
+	border: none;
+}
+	
+#transcript
+{
+	color: #000000;
+	font-size: 12px;
+	overflow: auto;
+	height: 321px;
+	width: 233px;
+}
+
+audio
+{
+	width: 230px;
+}
 -->
