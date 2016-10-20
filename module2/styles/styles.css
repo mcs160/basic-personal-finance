@@ -8,45 +8,39 @@ body
 
 #banner
 {
-	height: 80px;
+	height: 75px;
 	background:#000033;
 	top: 0px;
 	width: 100%;
-	Line-height: 1.5em;
-	font-family: Georgia, Times, serif;
-	font-size: 48px;
-	color: #ffffff;
-	text-align: left;
 	padding-top: 10px;
-	padding-left: 20px;
+	padding-left: 40px;
 }
 
-#format1
+#format1 
 {
-	background: #cccccc;
-	padding: 15px;
-	width: 700px;
-	font-size: 24px;
-	border-radius: 40px 0px 0px 40px;
-	position: relative;
-	font-family: arial, verdana, serif;
-	top: 0px;	
-	left: 150px;
+    background: #cccccc;
+    padding: 15px; 
+    width:100%;
+    font-size: 24px;
+    border-radius: 40px 0px 0px 40px;
+    position: relative;
+    font-family: Arial, Verdana, serif;
+    top: 0px;
+    left: 250px;
 }
 
-#format2
+#format2 
 {
-	background: #00b3b3;
-	padding: 15px;
-	width: 500px;
-	font-size: 20px;
-	border-radius: 0px 40px 40px 0px;
-	position: relative;
-	font-family: arial, verdana, serif;
-	top: 0px;	
-	left: 0px;
+    background: #00b3b3;
+    padding: 15px; 
+    width: 550px;
+    font-size: 20px;
+    border-radius: 0px 40px 40px 0px;
+    position: relative;
+    font-family: Arial, Verdana, serif;
+    top: 0px;
+    left: 0px;
 }
-
 
 #main-info
 {
@@ -78,6 +72,29 @@ body
 	margin: 10px;
 }
 
+a:link {
+    color: #00b3b3;
+    text-decoration: none;
+}
+
+a:visited {
+    color:  #b3ffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:  #990000;
+}
+
+a:active {
+    color: blue;
+}
+
+#activelink
+{
+	font-size: 18px;
+}
+
 #navigation
 {
 	background: #000033;	
@@ -85,6 +102,8 @@ body
 	width: 100%;
 	float: left;
 	height: 18px;
+	font-size: 14px;
+	padding-left: 10px;
 }
 
 #sub-navigation
@@ -95,6 +114,7 @@ body
 	float: left;
 	height: 18px;
 	font-size: 14px;
+	padding-left: 10px;
 }
 
 #aside-title-audio
