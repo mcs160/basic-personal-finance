@@ -110,7 +110,7 @@ function checkAllVisited()
 	var topic12 = sessionStorage.setItem( "visitTopic12", "unvisited" );
 	var topic13 = sessionStorage.setItem( "visitTopic13", "unvisited" );
 	
-	if ( topic1 == "visited" && topic2 == "visited" && topic3 == "visited" && topic4 == "visited" && topic5 == "visited" && topic6 == "visited" && topic7 == "visited" && topic8 == "visited" && topic9 == "visited" && topic10 == "visited" && topic11 == "visited" && topic12 == "visited" && topic13 == "visited)
+	if ( topic1 == "visited" && topic2 == "visited" && topic3 == "visited" && topic4 == "visited" && topic5 == "visited" && topic6 == "visited" && topic7 == "visited" && topic8 == "visited" && topic9 == "visited" && topic10 == "visited" && topic11 == "visited" && topic12 == "visited" && topic13 == "visited" )
 	{
 		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline";	
 	}
