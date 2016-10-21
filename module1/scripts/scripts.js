@@ -27,7 +27,7 @@ function startCourse()
     			
 			// set the values you want to persist throughout the website here
     		
-    		sessionStorage.setItem( "visitTopic1", "visited" );
+    		sessionStorage.setItem( "visitTopic1", "unvisited" );
     		sessionStorage.setItem( "visitTopic2", "unvisited" );
     		sessionStorage.setItem( "visitTopic3", "unvisited" );
     		sessionStorage.setItem( "visitTopic4", "unvisited" );
@@ -96,7 +96,7 @@ function finishCourse()
 
 function checkAllVisited()
 {
-	var topic1 = sessionStorage.setItem( "visitTopic1", "visited" );
+	var topic1 = sessionStorage.setItem( "visitTopic1", "unvisited" );
 	var topic2 = sessionStorage.setItem( "visitTopic2", "unvisited" );
 	var topic3 = sessionStorage.setItem( "visitTopic3", "unvisited" );
 	var topic4 = sessionStorage.setItem( "visitTopic4", "unvisited" );
@@ -110,9 +110,7 @@ function checkAllVisited()
 	var topic12 = sessionStorage.setItem( "visitTopic12", "unvisited" );
 	var topic13 = sessionStorage.setItem( "visitTopic13", "unvisited" );
 	
-	if ( topic1 == "visited" && topic2 == "visited" && topic3 == "visited" && topic4 == "visited" && topic5 == "visited")
-		
-	if ( topic6 == "visited" && topic7 == "visited" && topic8 == "visited" && topic9 == "visited" && topic10 == "visited" && topic11 == "visited" && topic12 == "visited" && topic13 == "visited)
+	if ( topic1 == "visited" && topic2 == "visited" && topic3 == "visited" && topic4 == "visited" && topic5 == "visited" && topic6 == "visited" && topic7 == "visited" && topic8 == "visited" && topic9 == "visited" && topic10 == "visited" && topic11 == "visited" && topic12 == "visited" && topic13 == "visited)
 	{
 		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline";	
 	}
