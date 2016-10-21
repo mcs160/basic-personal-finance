@@ -110,7 +110,9 @@ function checkAllVisited()
 	var topic40 = sessionStorage.getItem( "visitTopic40" );
 	var topic41 = sessionStorage.getItem( "visitTopic41" );
 	
-	if ( topic29 == "visited" && topic30 == "visited" && topic31 == "visited" && topic32 == "visited" && topic33 == "visited" && topic34 == "visited" && topic35 == "visited" && topic36 == "visited" && topic37 == "visited" && topic38 == "visited" && topic39 == "visited" && topic40 == "visited" && topic41 == "visited" )
+	if ( topic29 == "visited" && topic30 == "visited" && topic31 == "visited" && topic32 == "visited" && topic33 == "visited" 
+		&& topic34 == "visited" && topic35 == "visited" && topic36 == "visited" && topic37 == "visited" && topic38 == "visited") 
+		&& topic39 == "visited" && topic40 == "visited" && topic41 == "visited" )
 	{
 		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline";	
 	}
