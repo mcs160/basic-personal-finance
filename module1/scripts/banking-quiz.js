@@ -23,21 +23,21 @@ if( q3 [ 1 ].checked )
 	numberCorrect = numberCorrect + 1;
 }
 
-var q4 = document.forms.quiz1.question3;	
+var q4 = document.forms.quiz1.question4;	
 
 if( q4 [ 1 ].checked )
 {
 	numberCorrect = numberCorrect + 1;
 }
 
-var q5 = document.forms.quiz1.question3;	
+var q5 = document.forms.quiz1.question5;	
 
 if( q5 [ 1 ].checked )
 {
 	numberCorrect = numberCorrect + 1;
 }
 		 
- var score = numberCorrect/ 5 * 100;	
+var score = numberCorrect/ 5 * 100;	
 {
 	alert( score );
 }
