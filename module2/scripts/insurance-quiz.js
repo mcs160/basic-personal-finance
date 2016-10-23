@@ -1,5 +1,3 @@
-
-
 function processForm()
 {
  var numberCorrect = 0;
@@ -34,7 +32,7 @@ if( q5 [ 1 ].checked )
 	numberCorrect = numberCorrect + 1;
 }
 		 
- var score = numberCorrect/ 3 * 100;	
+ var score = numberCorrect/ 5 * 100;	
 {
 	alert( score );
 }
