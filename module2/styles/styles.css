@@ -131,15 +131,6 @@ a:hover {
     background-color: #cccccc;
 }
 
-.sub-nav
-{
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #cccccc;	
-}
-
 li {
     float: left;
 }
