@@ -185,5 +185,10 @@ audio
 
 #quiz-link
 {
-display: none;
+	display: none;
+}
+
+#certificate-link
+{
+	display:none;
 }
