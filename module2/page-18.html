@@ -7,6 +7,7 @@
 		
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
+		<script src="scripts/slideshow.js" language="javascript"></script>
 	</head>	
 		<body onload="javascript:parent.visitPage18()">
 		<div id="banner">
@@ -32,28 +33,24 @@
 		<section>
 			<div id="main-info">
 				<article>
-					<header>
-						<h1>Insurance 101.2</h1>
-					</header>
-					<!--  put content here -->
+					
+					<h1 id="heading">Insurance Policy</h1>
+					<img src="images/insurance-policy v2.jpg" id="image" alt="Insurance Policy" title="Insurnace Policy"/>
+					<p id="caption">An insurance policy is...</p>
+					
+					
+					<a href="#" onclick="javascript:goBack()">Back</a>  |
+					
+					<a href="#" onclick="javascript:goNext()">Next</a>
+					</br>
+					
+					<a href="#" onclick= "javascript:changeMe( 0 )">Insurance Policy</a>
+					<a href="#" onclick= "javascript:changeMe( 1 )">Car Accident</a>
+					<a href="#" onclick= "javascript:changeMe( 2 )">House Fire</a>
+					<a href="#" onclick= "javascript:changeMe( 3 )">Funeral</a>
+					<a href="#" onclick= "javascript:changeMe( 4 )">Indemnification</a>
+
 				</article>
-			</div>
-			<div id="aside-info">
-				<aside>
-					<header>
-						<p id="aside-title-audio">Audio</p>
-					</header>
-						<audio controls>
-							<source src="audio/testaudio.m4a" type="audio/mpeg">
-						</audio>
-					<br/>
-					<header>
-						<p id="aside-title-audio">Captions</p>
-					</header>
-				<div id="transcript">
-					<!--- include your transcript here --->
-				</div>
-				</aside>
 			</div>
 		</section>
 		<div id="navigation">

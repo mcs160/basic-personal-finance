@@ -4,11 +4,13 @@
 		<meta charset="utf-8"/>
 		<title><!--- include your title here ---></title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
-		
-		
+		<link href="styles/drag-and-drop-styles.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/drag-and-drop.js"></script>
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
+	
 	<body onload="javascript:parent.visitPage26()">
+	<body onload="javascript:parent.visitDragndrop()">
 		<div id="banner">
 		<header>
 			<img src="images/logo.jpg" alt="logo" title="Basic Personal Finance logo"/> 
@@ -31,30 +33,60 @@
 		<section>
 			<div id="main-info">
 				<article>
-					<header>
-						<h1> Insurance 103.2</h1>
-					</header>
-                    <!--  put content here -->
+					
+                    <section>
+         		<form name="dd1" onsubmit="javascript:processForm(); return false;">  
+				<p>Directions:  Match each coverage to its definition.</p>
+				
+				<div class="column">
+						<h3>Coverage</h3>
+					 	<div id="d1" value="3" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>Liability</p></div><br/>  
+				     	<div id="d2" value="2" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>Endorsements</p></div><br/>                        
+				 		<div id="d3" value="0" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>Dwelling</p></div><br/>  
+					 	<div id="d4" value="1" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>Physical Damage</p></div><br/>  
+				</div>
+    
+				<div class="column">
+						<h3>Definitions</h3>
+				     	<div id="db1" value="0" class="draggerbay" 
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"> </br>This coverage is designed to rebuild the structure
+				     													 of your home due to a covered loss.</div><br/>                        
+				 		<div id="db2" value="1" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"> </br>This coverage consists of a group of coverages normally
+				     													 referred to as Comprehensive and Collision which will pay 
+				     													 to repair you vehicle when damaged in a covered loss</div><br/>  
+					 	<div id="db3" value="2" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"> </br>These are addition coverage options 
+				     													that available to add to Auto and Property policies.</div><br/> 
+					 	<div id="db4" value="3" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"> </br>This coverage pays to other people 
+				     													if you were to cause harm (Bodily Injury) 
+																		to them or damage their property (Property Damage).</div><br/>  
+				</div>
+				<p id="response">&nbsp;</p>
+				<input type="submit" name="button" value="Submit Your Answer"/><br/>
+				</form>
+            </section>
+
 				</article>
 			</div>
-			<div id="aside-info">
-				<aside>
-					<header>
-						<p id="aside-title-audio">Audio</p>
-					</header>
-						<audio controls>
-							<source src="audio/testaudio.m4a" type="audio/mpeg">
-						</audio>
-					<br/>
-					<header>
-						<p id="aside-title-audio">Captions</p>
-					</header>
-				<div id="transcript">
-					<!--- include your transcript here --->
-				</div>
-				</aside>
-			</div>
-		</section>
+			
 		<div id="navigation">
 			<nav>
      			<a href="insurance-references.html"> References </a>

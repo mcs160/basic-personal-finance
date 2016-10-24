@@ -1,21 +1,31 @@
 .column
 {
 	display: table-cell;
-	padding: 50px;
+	padding: 20px;
 	width: 200px;
+}
+
+#banner
+{
+	height: 75px;
+	background:#000033;
+	top: 0px;
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 40px;
 }
 
 .dragger
 {
 	border: solid thin #000000;
-	background: #999999;
-	
+	background: #cccccc;
+	padding-top: 5px;
 	text-align: center;
-	height: 50px;
-	width: 150px;
+	height: 75px;
+	width: 310px;
+	font-family: arial;
 	vertical-align: center;
 	cursor: move;
-	position: relative;
 	ghosting: true;
 }
 
@@ -27,10 +37,13 @@
 .draggerbay
 {
 	border: dashed thin #000000;
-	height: 50px;
-	width: 150px;
+	height: 80px;
+	width: 310px;
+	font-family: arial;
 	text-align: center;
-	background: #ccccee;
+	vertical-align: center;
+	color: white;
+	background: #000033;
 }
 
 [draggable=true] 
@@ -39,4 +52,14 @@
   -webkit-user-drag: element;
   -khtml-user-select: none;
   -webkit-user-select: none;
+}
+w
+
+#navigation
+{
+	background: #666666;	
+	padding: 5px;
+	width: 886px;
+	float: left;
+	height: 18px;
 }
