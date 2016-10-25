@@ -54,9 +54,14 @@ h1
     left: 0px;
 }
 
-p
+.firstscreen
 {
 	text-indent: 80px;
+	font-size: 16px;
+}
+
+p
+{
 	font-size: 16px;
 }
 
