@@ -72,7 +72,7 @@
 	width: 90px;
 	text-align: center;
 	position: absolute;
-	top: 344px;
+	top: 244px;
 	left: 125px;
 	z-index: 10;
 }
@@ -84,7 +84,7 @@
 	width: 90px;
 	text-align: center;
 	position: absolute;
-	top: 349px;
+	top: 249px;
 	left: 490px;
 	z-index: 10;
 }
@@ -96,7 +96,7 @@
 	width: 90px;
 	text-align: center;
 	position: absolute;
-	top: 438px;
+	top: 338px;
 	left: 448px;
 	z-index: 10;
 }
@@ -108,7 +108,7 @@
 	width: 90px;
 	text-align: center;
 	position: absolute;
-	top: 378px;
+	top: 278px;
 	left: 60px;
 	z-index: 10;
 }
