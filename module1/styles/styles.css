@@ -54,12 +54,6 @@ h1
     left: 0px;
 }
 
-.background
-{
-	float: left;
-    z-index: -1;
-}
-
 p
 {
 	text-indent: 80px;

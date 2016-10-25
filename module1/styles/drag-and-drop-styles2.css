@@ -1,7 +1,7 @@
 .column
 {
 	display: table-cell;
-	padding: 10px;
+	padding: 50px;
 }
 
 .background
@@ -101,7 +101,7 @@
 	text-align: center;
 	background: #ffec80;
 	position: absolute;
-	top: 396px;
+	top: 395px;
 	left: 498px;
 }
 
