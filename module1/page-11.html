@@ -39,67 +39,66 @@
 						<h1> Banking 103.2 </h1>
 					</header>
 					<p> Complete the deposit by dragging the elements below to the correct location on the check image.</p> <br/>
-					
-						<img src="images/check.jpg" alt="Check" title="Check practice"/> 
-						
-						<div>
-					<form name="dd2" onsubmit="javascript:processForm(); return false;">  	
-					<table cellspacing="25">
+				
+				<form name="dd2" onsubmit="javascript:processForm(); return false;">  	
+				<div>
+					<img src="images/check.jpg" alt="Check" title="Check practice"/> 	
+					<table id="space">
 						<tr>
 							<td>
-					 			<div id="d1" value="3" class="dragger1" draggable="true" 
+					 			<div><img src="images/check-1.jpg" id="d1" value="2" class="dragger1" draggable="true" 
 				     			ondragstart="return startDrag( event )"
-				     			ondragend="return endDrag( event )"><img src="images/check-1.jpg" draggable="true" 
-				     			alt="Deposit slip fill-in" title="Drag the image to the correct location on the check."></div><br/>
+				     			ondragend="return endDrag( event )"
+				     			alt="Deposit slip fill-in" title="Drag image to deposit slip."></div><br/>
 				     		</td>
 				     		
 				     		<td>  
-				     			<div id="d2" value="2" class="dragger2" draggable="true"
+				     			<div><img src="images/check-2.jpg" id="d2" value="3" class="dragger2" draggable="true"
 				     			ondragstart="return startDrag( event )"
-				     			ondragend="return endDrag( event )"><img src="images/check-2.jpg" draggable="true" 
-				     			alt="Deposit slip fill-in" title="Drag the image to the correct location on the check."></div><br/> 
+				     			ondragend="return endDrag( event )"
+				     			alt="Deposit slip fill-in" title="Drag image to deposit slip."></div><br/> 
 				     		</td>
 				     	</tr>                      
 				 				
 				 		<tr>
 				 			<td>
-				 				<div id="d3" value="0" class="dragger3" draggable="true"
+				 				<div><img src="images/check-3.jpg" id="d3" value="1" class="dragger3" draggable="true"
 				     			ondragstart="return startDrag( event )"
-				     			ondragend="return endDrag( event )"><img src="images/check-3.jpg" draggable="true" 
-				     			alt="Deposit slip fill-in" title="Drag the image to the correct location on the check."></div><br/> 
+				     			ondragend="return endDrag( event )"
+				     			alt="Deposit slip fill-in" title="Drag image to deposit slip."></div><br/> 
 				     		</td>
 				     		 
 					 		<td>	
-					 			<div id="d4" value="1" class="dragger4" draggable="true"
+					 			<div><img src="images/check-4.jpg" draggable="true" id="d4" value="3" class="dragger4" draggable="true"
 				     			ondragstart="return startDrag( event )" 
-				     			ondragend="return endDrag( event )"><img src="images/check-4.jpg" draggable="true" 
-				     			alt="Deposit slip fill-in" title="Drag the image to the correct location on the check."></div><br/>
+				     			ondragend="return endDrag( event )"
+				     			alt="Deposit slip fill-in" title="Drag image to deposit slip."></div><br/>
 				     		</td>
 				     	</tr>
 				     </table>  
-					</div>
+				</div>
 				
 				    
 					<div>
 				     	<div id="db1" value="0" class="draggerbay1" 
 				     		ondrop="return dropDragger( event )"
 				     		ondragover="return false"
-				     		ondragenter="return enterDragger( event )"></div><br/>                        
+				     		ondragenter="return enterDragger( event )">1-0</div><br/>                        
 				 		<div id="db2" value="2" class="draggerbay2"
 				     		ondrop="return dropDragger( event )"
 				     		ondragover="return false"
-				     		ondragenter="return enterDragger( event )"></div><br/>  
-					 	<div id="db3" value="1" class="draggerbay3"
+				     		ondragenter="return enterDragger( event )">2-2</div><br/>  
+					 	<div id="db3" value="3" class="draggerbay3"
 				     		ondrop="return dropDragger( event )"
 				     		ondragover="return false"
-				     		ondragenter="return enterDragger( event )"></div><br/> 
-					 	<div id="db4" value="3" class="draggerbay4"
+				     		ondragenter="return enterDragger( event )">3-3</div><br/> 
+					 	<div id="db4" value="1" class="draggerbay4"
 				     		ondrop="return dropDragger( event )"
 				     		ondragover="return false"
-				     		ondragenter="return enterDragger( event )"></div><br/>  
+				     		ondragenter="return enterDragger( event )">4-1</div><br/>  
 					</div>
 				<p id="response">&nbsp;</p>
-				<input type="submit" name="button" value="Submit Your Answer"/><br/> 
+				<input type="submit" name="button" value="Submit Your Answer"/><br/></br/><br/><br/>
 				</form>
 				</article>
 			</div>

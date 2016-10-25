@@ -1,7 +1,7 @@
-.column
+#space
 {
-	display: table-cell;
-	padding: 50px;
+	 border-collapse: separate;
+  	 border-spacing: 25px; 
 }
 
 .background
@@ -12,7 +12,6 @@
 .dragger1
 {
 	border: solid thin #000000;
-	background: #999999;
 	text-align: center;
 	height: 25px;
 	width: 90px;
@@ -20,13 +19,12 @@
 	cursor: move;
 	position: relative;
 	ghosting: true;
-	z-index: 2;
+	z-index: 1;
 }
 
 .dragger2
 {
 	border: solid thin #000000;
-	background: #999999;
 	text-align: center;
 	height: 25px;
 	width: 90px;
@@ -34,13 +32,12 @@
 	cursor: move;
 	position: relative;
 	ghosting: true;
-	z-index: 2;
+	z-index: 1;
 }
 
 .dragger3
 {
 	border: solid thin #000000;
-	background: #999999;
 	text-align: center;
 	height: 25px;
 	width: 90px;
@@ -48,20 +45,19 @@
 	cursor: move;
 	position: relative;
 	ghosting: true;
-	z-index: 2;
+	z-index: 0;
 }
 
 .dragger4
 {
 	border: solid thin #000000;
-	background: #999999;
 	text-align: center;
 	height: 25px;
 	width: 90px;
 	vertical-align: center;
 	cursor: move;
 	ghosting: true;
-	z-index: 2;
+	z-index: 1;
 }
 
 .dragger p
@@ -75,10 +71,10 @@
 	height: 25px;
 	width: 90px;
 	text-align: center;
-	background: #ffec80;
 	position: absolute;
 	top: 344px;
 	left: 125px;
+	z-index: 2;
 }
 
 .draggerbay2
@@ -87,10 +83,10 @@
 	height: 25px;
 	width: 90px;
 	text-align: center;
-	background: #ffec80;
 	position: absolute;
-	top: 299px;
-	left: 497px;
+	top: 349px;
+	left: 490px;
+	z-index: 2;
 }
 
 .draggerbay3
@@ -99,10 +95,10 @@
 	height: 25px;
 	width: 90px;
 	text-align: center;
-	background: #ffec80;
 	position: absolute;
-	top: 395px;
-	left: 498px;
+	top: 438px;
+	left: 448px;
+	z-index: 2;
 }
 
 .draggerbay4
@@ -111,10 +107,10 @@
 	height: 25px;
 	width: 90px;
 	text-align: center;
-	background: #ffec80;
 	position: absolute;
 	top: 378px;
-	left: 192px;
+	left: 60px;
+	z-index: 2;
 }
 
 [draggable=true] 

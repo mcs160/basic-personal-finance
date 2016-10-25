@@ -36,26 +36,26 @@
 					<h1> Banking 103.1</h1>
 				</header>
 				<article>
-				<p> Complete the deposit by dragging the elements below to the correct location on the deposit-slip. </p><br/>
+					<p> Complete the deposit by dragging the elements below to the correct location on the deposit-slip. </p><br/>
 				
-					<form name="dd1" onsubmit="javascript:processForm(); return false;">  
+				<form name="dd1" onsubmit="javascript:processForm(); return false;"> 
+					<div> 
 					<img src="images/deposit-slip.jpg" class="background" alt="Deposit Slip" title="Deposit slip practice">
 			
-					<div>
-					<table cellspacing="25">
+					<table id="space">
 						<tr>
 							<td>
 					 			<div> <img src="images/deposit-slip1.jpg" id="d1" value="0" class="dragger1" draggable="true" 
 				     			ondragstart="return startDrag( event )"
 				     			ondragend="return endDrag( event )"
-				     			alt="Deposit slip fill-in" title="Drag the image to the correct location on the check."></div><br/>
+				     			alt="Deposit slip fill-in" title="Drag image to check."></div><br/>
 				     		</td>
 				     		
 				     		<td>  
 				     			<div> <img src="images/deposit-slip2.jpg" id="d2" value="1" class="dragger2" draggable="true"
 				     			ondragstart="return startDrag( event )"
 				     			ondragend="return endDrag( event )"
-				     			alt="Deposit slip fill-in" title="Drag the image to the correct location on the check."></div><br/> 
+				     			alt="Deposit slip fill-in" title="Drag image to check."></div><br/> 
 				     		</td>
 				     	</tr>                      
 				 				
@@ -64,14 +64,14 @@
 				 				<div><img src="images/deposit-slip3.jpg" id="d3" value="2" class="dragger3" draggable="true"
 				     			ondragstart="return startDrag( event )"
 				     			ondragend="return endDrag( event )"
-				     			alt="Deposit slip fill-in" title="Drag the image to the correct location on the check."></div><br/> 
+				     			alt="Deposit slip fill-in" title="Drag image to check."></div><br/> 
 				     		</td>
 				     		 
 					 		<td>	
 					 			<div> <img src="images/deposit-slip4.jpg" id="d4" value="3" class="dragger4" draggable="true"
 				     			ondragstart="return startDrag( event )"
 				     			ondragend="return endDrag( event )" 
-				     			alt="Deposit slip fill-in" title="Drag the image to the correct location on the check."></div><br/>
+				     			alt="Deposit slip fill-in" title="Drag image to check."></div><br/>
 				     		</td>
 				     	</tr>
 				     </table>  
@@ -96,13 +96,13 @@
 				     		ondragover="return false"
 				     		ondragenter="return enterDragger( event )">.</div><br/>  
 					</div>
-				<p id="response">&nbsp;</p>
-				<input type="submit" name="button" value="Submit Your Answer"/><br/><br/><br/><br/>
+						<p id="response">&nbsp;</p>
+						<input type="submit" name="button" value="Submit Your Answer"/><br/><br/><br/><br/>
 				</form>
 				</article>
-				</div>
-			</section>
-            </div>
+			</div>
+		</section>
+       </div>
 		
 		<div id="navigation">
 			<nav>
