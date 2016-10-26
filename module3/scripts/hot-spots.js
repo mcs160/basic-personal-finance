@@ -5,11 +5,11 @@
 function showText( number )
 {
 	// show the output box
-	//document.getElementById( "output-box" ).style.display = "block";
+	document.getElementById( "output-box" ).style.display = "block";
 	
 	if( number == 1 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "le chat";
+		document.getElementById( "output-text" ).innerHTML = "test 1";
 	}
 	else if( number == 2 )
 	{
@@ -23,9 +23,17 @@ function showText( number )
 	{
 		document.getElementById( "output-text" ).innerHTML = "l'oiseau";
 	}
+	else if( number == 5 )
+	{
+		document.getElementById( "output-text" ).innerHTML = "test 5";
+	}
+	else if( number == 6 )
+	{
+		document.getElementById( "output-text" ).innerHTML = "test 6";
+	}
 }
 
-//function hideOutput()
-//{
-//	document.getElementById( "output-box" ).style.display = "none";
-//}
+function hideOutput()
+{
+	document.getElementById( "output-box" ).style.display = "none";
+}
