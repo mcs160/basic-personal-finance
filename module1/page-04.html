@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<script src="scripts/savings-ss.js" lang="javascript"></script>
 		
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
@@ -23,7 +24,6 @@
     				<li><a href="page-05.html"> Bank 102.2 </a></li>
     				<li><a href="page-06.html"> Bank 102.3 </a></li>
     				<li><a href="page-07.html"> Bank 102.4 </a></li>
-    				<li><a href="page-08.html"> Bank 102.5 </a></li>
     				<li><a href="quiz-1.html" id="quiz-link"> Quiz </a></li>
     			</ul>
 			</nav>
@@ -34,10 +34,32 @@
 			<div id="main-info">
 				<article>
 					<header>
-						<h1> Banking 102.1 </h1>
+						<h1> Banking 102.1: Savings </h1>
 					</header>
 					
-					<!--- put your content here --->
+						<p> Click through the slideshow to see how to deposit and withdrawal money from a savings account.</p>
+					<h1 id="heading"> Deposit </h1>
+						<img id="pics" src="images/deposit.jpg" alt="Deposit" title="Deposit"/>
+						<p id="caption"> You must fill out a deposit slip to make a deposit at a bank in person. 
+						These can be found at the bank or in the back of your checkbook. 
+						Make sure your deposit slip has the correct account number, date, and the correct currency. 
+						Cash and coins need to be separate from checks, and each check should be listed separately 
+						and endorsed. Calculate the total deposit, and indicate if you would like cash back. </p>
+					
+						<a href="#" onclick="javascript:goBack()"> Back</a> |
+						<a href="#" onclick="javascript:goNext()"> Next</a> 
+						<br/>
+					
+						<a href="#" onclick="javascript:changeMe( 0 )"> Deposit</a> |
+						<a href="#" onclick="javascript:changeMe( 1 )"> Withdrawal</a> |
+						<a href="#" onclick="javascript:changeMe( 2 )"> ATM/Debit</a> |
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+					
 				</article>
 			</div>
 			<div id="aside-info">
@@ -54,7 +76,11 @@
 						<p id="aside-title-audio">Captions</p>
 					</header>
 				<div id="transcript">
-					<!--- include your transcript here ---> 
+					A savings account is a bank account that earns interest on the money you have deposited.  
+					Banks pay interest on money you put into savings accounts because the bank is able to 
+					use your money to make loans to other customers. The amount of interest you will earn 
+					depends on the type of savings account you have, which bank has the account, and how 
+					long you keep your money in the account. 
 				</div>
 				</aside>
 			</div>

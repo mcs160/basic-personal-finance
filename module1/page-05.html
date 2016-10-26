@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<script src="scripts/checking-ss.js" lang="javascript"></script>
 		
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
@@ -23,7 +24,6 @@
     				<li><a href="page-05.html" id="activelink"> Bank 102.2 </a></li>
     				<li><a href="page-06.html"> Bank 102.3 </a></li>
     				<li><a href="page-07.html"> Bank 102.4 </a></li>
-    				<li><a href="page-08.html"> Bank 102.5 </a></li>
     				<li><a href="quiz-1.html" id="quiz-link"> Quiz </a></li>
     			</ul>
 			</nav>
@@ -34,10 +34,27 @@
 			<div id="main-info">
 				<article>
 					<header>
-						<h1> Banking 102.2 </h1>
+						<h1> Banking 102.2: Checking </h1>
 					</header>
-			
-					<!--- put your content here --->
+							<p> Click through the slideshow to see the tools used to withdrawal money from your checking account.</p>
+						<h1 id="heading"> Direct Deposit</h1>
+							<img id="pics" src="images/direct-deposit.jpg" alt="Direct Deposit" title="Direct Deposit/>
+							<p id="caption"> You can use deposit and withdrawal slips for checking accounts as well, 
+							but direct deposit is also a convenient option. This allows employers to electronically 
+							deposit your paycheck into your checking account so your funds are immediately available.</p>
+					
+							<a href="#" onclick="javascript:goBack()"> Back</a> |
+							<a href="#" onclick="javascript:goNext()"> Next</a> 
+							<br/>
+					
+							<a href="#" onclick="javascript:changeMe( 0 )"> Direct Deposit</a> |
+							<a href="#" onclick="javascript:changeMe( 1 )"> Checks</a> |
+							<a href="#" onclick="javascript:changeMe( 2 )"> Debit </a> |
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+
 				</article>
 			</div>
 			<div id="aside-info">
@@ -54,7 +71,12 @@
 						<p id="aside-title-audio">Captions</p>
 					</header>
 				<div id="transcript">
-					<!--- include your transcript here --->
+					A checking account is an everyday money management tool that you use for regular expenses. 
+					When you deposit money in your checking account, you can use your funds to make a purchase 
+					or pay bills with a check, debit card, or electronically. You can also get cash from the 
+					ATM machine using your ATM or debit card. You will need to keep track of how much money 
+					you deposit into your account, and how much to keep in your account on a regular basis. 
+
 				</div>
 				</aside>
 			</div>
