@@ -72,10 +72,11 @@ function dropDragger( evt )
 		// take the slot and store the dragger's value into the array
 		var nDraggerIndex = evt.dataTransfer.getData( "sData" );
 		aDraggerBays[ nDraggerBayIndex ] = nDraggerIndex; 
-		
 		// replace the HTML of the dragger bay with the dragger (the HTML)
-		evt.target.innerHTML = "<div class='dragger'>" + oCurrentDragger.innerHTML + "</div>";
 		
+		evt.target.innerHTML = "<div class='dragger'><img src='" + oCurrentDragger.src + "' alt='" + oCurrentDragger.alt + "' " +
+					" title='" + oCurrentDragger.title + "' " + oCurrentDragger.title + "' border='1'></div>";
+
 		evt.target.style.border = "none";
 		oCurrentDragger.style.display = "none";
 	}
@@ -91,6 +92,7 @@ function isTaken( nIndex )
 	// return true if the slot has been taken by a dragger
 	return true;
 }
+
 
 // Do not change these functions
 function dragOver( evt )
