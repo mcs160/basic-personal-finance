@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
-		
+		<link href="styles/hot-spots-styles.css" rel=stylesheet type ="text/css"/>
+		<script language="javascript" src="scripts/hot-spots.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
@@ -36,27 +37,38 @@
 					<header>
 						<h1> Credit 102.4</h1>
 					</header>
-					<img src="images/fico102sized.jpg" alt="Interactive Definitions" title="Interactive Definitions"/>
-				</article>
+					<div id="hotspots">
+			<div class="column">
+				<div id="hs1" class="hotspot"
+					onmouseover="javascript:showText( 1 )"
+					onmouseout="javascript:hideOutput()"><p>Cash</p></div>
 			</div>
-			<div id="aside-info">
-				<aside>
-					<header>
-						<p id="aside-title-audio">Audio</p>
-					</header>
-						<audio controls>
-							<source src="audio/testaudio.m4a" type="audio/mpeg">
-						</audio>
-					<br/>
-					
-					<header>
-						<p id="aside-title-audio">Captions</p>
-					</header>
-				<div id="transcript">
-					<!--- include your transcript here --->
-				</div>
-				</aside>
+			<div class="column">
+				<div id="hs2" class="hotspot"
+					onmouseover="javascript:showText( 2 )"
+					onmouseout="javascript:hideOutput()"><p>Conventional Mortgage</p></div>
+			</div>	
+			<div class="column">
+				<div id="hs3" class="hotspot"
+					onmouseover="javascript:showText( 3 )"
+					onmouseout="javascript:hideOutput()"><p>Hard Money</p></div>
 			</div>
+			<div class="column">
+				<div id="hs4" class="hotspot"
+					onmouseover="javascript:showText( 4 )"
+					onmouseout="javascript:hideOutput()"><p>Tax Foreclsoures</p></div>
+			</div>
+			<div class="column">
+				<div id="hs5" class="hotspot"
+					onmouseover="javascript:showText( 5 )"
+					onmouseout="javascript:hideOutput()"><p>Mortgage Lender Foreclosures</p></div>
+			</div>
+			<div class="column">
+				<div id="hs6" class="hotspot"
+					onmouseover="javascript:showText( 6 )"
+					onmouseout="javascript:hideOutput()"><p>Subject-to Existing Financing</p></div>
+			</div>
+		</div>
 		</section>
 		
 		<div id="navigation">
