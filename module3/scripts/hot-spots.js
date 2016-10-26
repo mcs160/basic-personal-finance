@@ -13,15 +13,15 @@ function showText( number )
 	}
 	else if( number == 2 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "le cheval";
+		document.getElementById( "output-text" ).innerHTML = "test 2";
 	}
 	else if( number == 3 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "le chien";
+		document.getElementById( "output-text" ).innerHTML = "test 3";
 	}
 	else if( number == 4 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "l'oiseau";
+		document.getElementById( "output-text" ).innerHTML = "test 4";
 	}
 	else if( number == 5 )
 	{
@@ -30,6 +30,10 @@ function showText( number )
 	else if( number == 6 )
 	{
 		document.getElementById( "output-text" ).innerHTML = "test 6";
+	}
+	else if( number == 7 )
+	{
+		document.getElementById( "output-text" ).innerHTML = "test 7";
 	}
 }
 
