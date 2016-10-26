@@ -78,6 +78,14 @@ ul
 	width: 627px;
 }
 
+#main-info2
+{
+	float: left;
+	width: 627px;
+	padding-bottom: 60px;
+}
+
+
 #module-aside-info
 {
 	float: left;
@@ -150,12 +158,11 @@ li a:hover {
 #navigation
 {
 	background: #000033;	
-	padding: 10px;
+	padding: 0px;
 	width: 100%;
 	float: left;
 	height: 18px;
 	font-size: 16px;
-	padding-left: 10px;
 	position: fixed;
 	bottom: 0px;
 }
