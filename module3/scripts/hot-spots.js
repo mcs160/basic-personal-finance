@@ -5,7 +5,7 @@
 function showText( number )
 {
 	// show the output box
-	document.getElementById( "output-box" ).style.display = "block";
+	//document.getElementById( "output-box" ).style.display = "block";
 	
 	if( number == 1 )
 	{
@@ -25,7 +25,7 @@ function showText( number )
 	}
 }
 
-function hideOutput()
-{
-	document.getElementById( "output-box" ).style.display = "none";
-}
+//function hideOutput()
+//{
+//	document.getElementById( "output-box" ).style.display = "none";
+//}
