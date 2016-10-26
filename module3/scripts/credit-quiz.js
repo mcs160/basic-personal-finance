@@ -4,35 +4,35 @@ function processForm()
 	
  var q1 = document.forms.quiz1.question1;
  
- if( q1 [ 1 ].checked )
+ if( q1 [ 0 ].checked )
 {
  numberCorrect = numberCorrect + 1;
 }
  
  var q2 = document.forms.quiz1.question2;	
 
- if( q2 [ 0 ].checked )
+ if( q2 [ 1 ].checked )
 {	
 	numberCorrect = numberCorrect + 1;
 }
 		 
  var q3 = document.forms.quiz1.question3;	
 		 
-if( q3 [ 1 ].checked )
+if( q3 [ 2 ].checked )
 {
 	numberCorrect = numberCorrect + 1;
 }
 
 var q4 = document.forms.quiz1.question4;	
 
-if( q4 [ 0 ].checked )
+if( q4 [ 1 ].checked )
 {	
 	numberCorrect = numberCorrect + 1;
 }
 		 
 var q5 = document.forms.quiz1.question5;	
 		 
-if( q5 [ 1 ].checked )
+if( q5 [ 0 ].checked )
 {
 	numberCorrect = numberCorrect + 1;
 }

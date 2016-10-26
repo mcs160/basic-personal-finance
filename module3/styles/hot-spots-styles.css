@@ -9,12 +9,10 @@
 {
 	border: solid thin #000000;
 	background: #999999;
-	
 	text-align: center;
 	height: 100px;
 	width: 100px;
 	vertical-align: center;
-	position: relative;
 }
 
 .hotspot p
@@ -28,7 +26,10 @@
 	height: 100px;
 	width: 840px;
 	text-align: center;
-	background: #ccccee;
+	background: #000033;
 	padding: 10px;
 	display: block;
+	position: absolute;
+	top: 400px;
+	color: #ffffff
 }
