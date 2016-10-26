@@ -1,23 +1,24 @@
 var heading = new Array( "Deposit", "Withdrawal", "ATM" );
 
-var caption = new Array(  "You must fill out a deposit slip to make a deposit at a bank in person. These can be found at the bank or in the back of your checkbook. Make sure your deposit slip has the correct account number, date, and the correct currency. Cash and coins need to be separate from checks, and each check should be listed separately and endorsed. Calculate the total deposit, and indicate if you would like cash back.",
-		"You must complete a withdrawal slip to make a withdrawal at a bank in person. These can be found at the bank or in the back of your checkbook. Make sure your withdrawal slip has the correct account number, date, and amount you wish to withdrawal.", 
-		"You can also withdrawal money from your savings account using your ATM or debit card. Insert or slide your card, depending on the machine, enter your Personal Identification Number (PIN), and select which account you wish to withdrawal funds. You can also use the ATM machine to check your balance, transfer funds, and in some cases, make deposits. " );
+var caption = new Array(  "When depositing money in person at a bank, you must fill out a deposit slip. These can be found at the bank or in the back of your checkbook. Make sure your deposit slip has the correct account number, date, and the correct currency. Cash and coins need to be separate from checks, and each check should be listed separately and endorsed. Calculate the total deposit, and indicate if you would like cash back.",
+		"In order to make a withdrawal at a teller within your bank, you must complete a withdrawal slip. These can be found at the bank or in the back of your checkbook. Make sure your withdrawal slip has the correct account number, date, and amount you wish to withdraw.", 
+		"Withdrawals can also be completed from your savings account using your ATM or debit card. Insert or slide your card, depending on the machine, enter your Personal Identification Number (PIN), and select the account from which you wish to withdrawal funds. You can also use the ATM machine to check your balance, transfer funds, and in some cases, make deposits. " );
 
-var pics = new Array( "images/deposit.jpg", "images/withdrawal.jpg", "images/atm-machine.jpg" );
+var pics = new Array( "images/savings-1.jpg", "images/savings-2.jpg", "images/savings-3.jpg" );
 
 var alt = new Array( "Deposit", "Withdrawal", "ATM" );
 
 var title = new Array( "Deposit", "Withdrawal", "ATM" );
+
 var index = 0;
 
 function goNext()
 {
 	index = index + 1;
 	
-	if( index == 4 )
+	if( index == 3 )
 	{
-		index = 3;
+		index = 2;
 		}
 
 	document.getElementById( "heading" ).innerHTML = heading[ index ];
