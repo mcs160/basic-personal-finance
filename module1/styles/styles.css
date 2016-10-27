@@ -12,6 +12,12 @@ h1
 	 font-size: 20px;
 }
 
+.size
+{
+	font-family: Arial, Verdana, serif;
+ 	font-size: 16px;
+}
+
 #banner
 {
 	height: 75px;
