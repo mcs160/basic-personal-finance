@@ -25,7 +25,7 @@ function showText( number )
 	}
 	else if( number == 5 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "A monetary amount chard autimatically on a yearly basis for the use of a credit card seperate from interest on purchases.";
+		document.getElementById( "output-text" ).innerHTML = "A monetary amount charged automatically on a yearly basis for the use of a credit card seperate from interest on purchases.";
 	}
 	else if( number == 6 )
 	{

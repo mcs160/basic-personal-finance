@@ -28,7 +28,7 @@ function startCourse()
     			
 			// set the values you want to persist throughout the website here
     		
-    		sessionStorage.setItem( "visitPage29", "unvisited" );
+    		sessionStorage.setItem( "visitPage29", "visited" );
     		sessionStorage.setItem( "visitPage30", "unvisited" );
     		sessionStorage.setItem( "visitPage31", "unvisited" );
     		sessionStorage.setItem( "visitPage32", "unvisited" );
@@ -111,7 +111,7 @@ function checkAllVisited()
 	var topic41 = sessionStorage.getItem( "visitPage41" );
 	
 	if ( page29 == "visited" && page30 == "visited" && page31 == "visited" && page32 == "visited" && page33 == "visited" 
-		&& page34 == "visited" && page35 == "visited" && page36 == "visited" && page37 == "visited" && page38 == "visited") 
+		&& page34 == "visited" && page35 == "visited" && page36 == "visited" && page37 == "visited" && page38 == "visited"
 		&& page39 == "visited" && page40 == "visited" && page41 == "visited" )
 	{
 		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline";	

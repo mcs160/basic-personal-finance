@@ -96,7 +96,7 @@ function finishCourse()
 
 function checkAllVisited()
 {
-	var topic1 = sessionStorage.setItem( "visitTopic1", "unvisited" );
+	var topic1 = sessionStorage.setItem( "visitTopic1", "visited" );
 	var topic2 = sessionStorage.setItem( "visitTopic2", "unvisited" );
 	var topic3 = sessionStorage.setItem( "visitTopic3", "unvisited" );
 	var topic4 = sessionStorage.setItem( "visitTopic4", "unvisited" );

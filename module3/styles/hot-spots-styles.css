@@ -10,7 +10,7 @@
 	border: solid thin #000000;
 	background: #999999;
 	text-align: center;
-	height: 100px;
+	height: 125px;
 	width: 100px;
 	vertical-align: center;
 }
@@ -22,14 +22,16 @@
 
 #output-box
 {
+	
 	border: dashed thin #000000;
-	height: 100px;
-	width: 600px;
+	height: 75px;
+	width: 575px;
 	text-align: center;
 	background: #000033;
 	padding: 10px;
 	display: block;
 	position: absolute;
-	top: 400px;
+	top: 375px;
+	left: 25px;
 	color: #ffffff
 }
