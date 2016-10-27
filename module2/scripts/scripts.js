@@ -28,7 +28,7 @@ function startCourse()
     			
 			// set the values you want to persist throughout the website here
     		
-    		sessionStorage.setItem( "visitPage15", "unvisited" );
+    		sessionStorage.setItem( "visitPage15", "visited" );
     		sessionStorage.setItem( "visitPage16", "unvisited" );
     		sessionStorage.setItem( "visitPage17", "unvisited" );
     		sessionStorage.setItem( "visitPage18", "unvisited" );

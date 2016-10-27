@@ -27,7 +27,7 @@ function startCourse()
     			
 			// set the values you want to persist throughout the website here
     		
-    		sessionStorage.setItem( "visitTopic1", "unvisited" );
+    		sessionStorage.setItem( "visitTopic1", "visited" );
     		sessionStorage.setItem( "visitTopic2", "unvisited" );
     		sessionStorage.setItem( "visitTopic3", "unvisited" );
     		sessionStorage.setItem( "visitTopic4", "unvisited" );
