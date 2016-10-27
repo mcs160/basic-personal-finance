@@ -14,9 +14,9 @@ function goNext()
 {
 	index = index + 1;
 	
-	if( index == 6 )
+	if( index == 5 )
 	{
-		index = 5;
+		index = 4;
 		}
 
 	document.getElementById( "heading" ).innerHTML = heading[ index ];
