@@ -60,9 +60,20 @@ h1
     z-index: -1;
 }
 
-p
+.firstscreen
 {
 	text-indent: 80px;
+	font-size: 16px;
+}
+
+.size
+{
+	font-family: Arial, Verdana, serif;
+	font-size: 16px;
+}
+
+p
+{
 	font-size: 16px;
 }
 
