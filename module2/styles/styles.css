@@ -158,11 +158,12 @@ li a:hover {
 #navigation
 {
 	background: #000033;	
-	padding: 0px;
+	padding: 10px;
 	width: 100%;
 	float: left;
 	height: 18px;
 	font-size: 16px;
+	padding-left: 10px
 	position: fixed;
 	bottom: 0px;
 }
