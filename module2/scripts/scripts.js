@@ -28,7 +28,7 @@ function startCourse()
     			
 			// set the values you want to persist throughout the website here
     		
-    		sessionStorage.setItem( "visitPage15", "visited" );
+    		sessionStorage.setItem( "visitPage15", "unvisited" );
     		sessionStorage.setItem( "visitPage16", "unvisited" );
     		sessionStorage.setItem( "visitPage17", "unvisited" );
     		sessionStorage.setItem( "visitPage18", "unvisited" );
@@ -121,79 +121,79 @@ function checkAllVisited()
 	}
 }
 
-function visitTopic15()
+function visitPage15()
 {
 	sessionStorage.setItem( "visitPage15", "visited" );
 	checkAllVisited (); 
 }
 
-function visitTopic16()
+function visitPage16()
 {
 	sessionStorage.setItem( "visitPage16", "visited" );
 	checkAllVisited ();
 }
 
-function visitTopic17()
+function visitPage17()
 {
 	sessionStorage.setItem( "visitPage17", "visited" );
 	checkAllVisited ();
 }
 
-function visitTopic18()
+function visitPage18()
 {
 	sessionStorage.setItem( "visitPage18", "visited" );
 	checkAllVisited ();
 }
 
-function visitTopic19()
+function visitPage19()
 {
 	sessionStorage.setItem( "visitPage19", "visited" );
 	checkAllVisited ();
 }
 
-function visitTopic20()
+function visitPage20()
 {
 	sessionStorage.setItem( "visitPage20", "visited" );
 	checkAllVisited (); 
 }
 
-function visitTopic21()
+function visitPage21()
 {
 	sessionStorage.setItem( "visitPage21", "visited" );
 	checkAllVisited ();
 }
 
-function visitTopic22()
+function visitPage22()
 {
 	sessionStorage.setItem( "visitPage22", "visited" );
 	checkAllVisited ();
 }
 
-function visitTopic23()
+function visitPage23()
 {
 	sessionStorage.setItem( "visitPage23", "visited" );
 	checkAllVisited ();
 }
 
-function visitTopic24()
+function visitPage24()
 {
 	sessionStorage.setItem( "visitPage24", "visited" );
 	checkAllVisited ();
 }
 
-function visitTopic25()
+function visitPage25()
 {
 	sessionStorage.setItem( "visitPage25", "visited" );
 	checkAllVisited (); 
 }
 
-function visitTopic26()
+function visitPage26()
 {
 	sessionStorage.setItem( "visitPage26", "visited" );
 	checkAllVisited ();
 }
 
-function visitTopic27()
+function visitPage27()
 {
 	sessionStorage.setItem( "visitPage27", "visited" );
 	checkAllVisited ();
