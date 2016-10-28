@@ -27,15 +27,15 @@ function startCourse()
     			
 			// set the values you want to persist throughout the website here
     		
-    		sessionStorage.setItem( "visitPage01", "visited" );
-    		sessionStorage.setItem( "visitPage02", "unvisited" );
-    		sessionStorage.setItem( "visitPage03", "unvisited" );
-    		sessionStorage.setItem( "visitPage04", "unvisited" );
-    		sessionStorage.setItem( "visitPage05", "unvisited" );
-    		sessionStorage.setItem( "visitPage06", "unvisited" );
-    		sessionStorage.setItem( "visitPage07", "unvisited" );
-    		sessionStorage.setItem( "visitPage08", "unvisited" );
-    		sessionStorage.setItem( "visitPage09", "unvisited" );
+    		sessionStorage.setItem( "visitPage1", "visited" );
+    		sessionStorage.setItem( "visitPage2", "unvisited" );
+    		sessionStorage.setItem( "visitPage3", "unvisited" );
+    		sessionStorage.setItem( "visitPage4", "unvisited" );
+    		sessionStorage.setItem( "visitPage5", "unvisited" );
+    		sessionStorage.setItem( "visitPage6", "unvisited" );
+    		sessionStorage.setItem( "visitPage7", "unvisited" );
+    		sessionStorage.setItem( "visitPage8", "unvisited" );
+    		sessionStorage.setItem( "visitPage9", "unvisited" );
     		sessionStorage.setItem( "visitPage10", "unvisited" );
     		sessionStorage.setItem( "visitPage11", "unvisited" );
     		sessionStorage.setItem( "visitPage12", "unvisited" );
@@ -96,78 +96,78 @@ function finishCourse()
 
 function checkAllVisited()
 {
-	var page01 = sessionStorage.setItem( "visitPage01", "visited" );
-	var page02 = sessionStorage.setItem( "visitPage02", "unvisited" );
-	var page03 = sessionStorage.setItem( "visitPage03", "unvisited" );
-	var page04 = sessionStorage.setItem( "visitPage04", "unvisited" );
-	var page05 = sessionStorage.setItem( "visitPage05", "unvisited" );
-	var page06 = sessionStorage.setItem( "visitPage06", "unvisited" );
-	var page07 = sessionStorage.setItem( "visitPage07", "unvisited" );
-	var page08 = sessionStorage.setItem( "visitPage08", "unvisited" );
-	var page09 = sessionStorage.setItem( "visitPage09", "unvisited" );
+	var page1 = sessionStorage.setItem( "visitPage1", "visited" );
+	var page2 = sessionStorage.setItem( "visitPage2", "unvisited" );
+	var page3 = sessionStorage.setItem( "visitPage3", "unvisited" );
+	var page4 = sessionStorage.setItem( "visitPage4", "unvisited" );
+	var page5 = sessionStorage.setItem( "visitPage5", "unvisited" );
+	var page6 = sessionStorage.setItem( "visitPage6", "unvisited" );
+	var page7 = sessionStorage.setItem( "visitPage7", "unvisited" );
+	var page8 = sessionStorage.setItem( "visitPage8", "unvisited" );
+	var page9 = sessionStorage.setItem( "visitPage9", "unvisited" );
 	var	page10 = sessionStorage.setItem( "visitPage10", "unvisited" );
 	var page11 = sessionStorage.setItem( "visitPage11", "unvisited" );
 	var page12 = sessionStorage.setItem( "visitPage12", "unvisited" );
 	
-	if ( page01 == "visited" && page02 == "visited" && page03 == "visited" && page04 == "visited" && page05 == "visited" 
-		&& page06 == "visited" && page07 == "visited" && page08 == "visited" && page09 == "visited" 
+	if ( page1 == "visited" && page2 == "visited" && page3 == "visited" && page4 == "visited" && page5 == "visited" 
+		&& page6 == "visited" && page7 == "visited" && page8 == "visited" && page9 == "visited" 
 		&& page10 == "visited" && page11 == "visited" && page12 == "visited" )
 	{
 		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline";	
 	}
 }
 
-function visitPage01()
-{
-	sessionStorage.setItem( "visitPage01", "visited" );
+function visitPage1()
+
+	sessionStorage.setItem( "visitPage1", "visited" );
 	checkAllVisited (); 
 }
 
-function visitPage02()
+function visitPage2()
 {
-	sessionStorage.setItem( "visitPage02", "visited" );
+	sessionStorage.setItem( "visitPage2", "visited" );
 	checkAllVisited (); 
 }
 
-function visitPage03()
+function visitPage3()
 {
-	sessionStorage.setItem( "visitPage03", "visited" );
+	sessionStorage.setItem( "visitPage3", "visited" );
 	checkAllVisited (); 
 }
 
-function visitPage04()
+function visitPage4()
 {
-	sessionStorage.setItem( "visitPage04", "visited" );
+	sessionStorage.setItem( "visitPage4", "visited" );
 	checkAllVisited (); 
 }
 
-function visitPage05()
+function visitPage5()
 {
-	sessionStorage.setItem( "visitPage05", "visited" );
+	sessionStorage.setItem( "visitPage5", "visited" );
 	checkAllVisited (); 
 }
 
-function visitPage06()
+function visitPage6()
 {
-	sessionStorage.setItem( "visitPage06", "visited" );
+	sessionStorage.setItem( "visitPage6", "visited" );
 	checkAllVisited (); 
 }
 
-function visitPage07()
+function visitPage7()
 {
-	sessionStorage.setItem( "visitPage07", "visited" );
+	sessionStorage.setItem( "visitPage7", "visited" );
 	checkAllVisited (); 
 }
 
-function visitTopic08()
+function visitPage8()
 {
-	sessionStorage.setItem( "visitPage08", "visited" );
+	sessionStorage.setItem( "visitPage8", "visited" );
 	checkAllVisited (); 
 }
 
-function visitPage09()
+function visitPage9()
 {
-	sessionStorage.setItem( "visitPage09", "visited" );
+	sessionStorage.setItem( "visitPage9", "visited" );
 	checkAllVisited (); 
 }
 
