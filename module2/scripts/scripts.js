@@ -1,4 +1,3 @@
-
 // this file holds any scripts that have to do with communicating with the learning management system (LMS)
 
 // define a SCORM object to interface with LMS

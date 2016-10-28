@@ -3,11 +3,12 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
-		
+		<link href="styles/drag-and-drop-styles.css" rel="stylesheet" type="text/css"/>
+		<script src="scripts/drag-and-drop.js" lang="javascript"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
-		<body onload="javascript:parent.visitTopic9()">
+		<body onload="javascript:parent.visitPage09()">
 		<div id="banner">
 		<header>
 			<img src="images/logo.jpg" alt="logo" title="Basic Personal Finance logo"/> 
@@ -18,11 +19,11 @@
 			<nav>
 				<ul class="sub-navigation">
 					<li><a href="page-01.html"> Home </a></li>
-    				<li><a href="page-09.html" id="activelink"> Bank 103 </a></li>
-    				<li><a href="page-10.html"> Bank 103.1 </a></li>
-    				<li><a href="page-11.html"> Bank 103.2 </a></li>
-    				<li><a href="page-12.html"> Bank 103.3 </a></li>
-    				<li><a href="page-13.html"> Bank 103.4 </a></li>
+    				<li><a href="page-08.html"> Bank 103 </a></li>
+    				<li><a href="page-09.html"  id="activelink"> Bank 103.1 </a></li>
+    				<li><a href="page-10.html"> Bank 103.2 </a></li>
+    				<li><a href="page-11.html"> Bank 103.3 </a></li>
+    				<li><a href="page-12.html"> Bank 103.4 </a></li>
     				<li><a href="quiz-1.html" id="quiz-link"> Quiz </a></li>
     			</ul>
 			</nav>
@@ -31,52 +32,76 @@
 		<div id="main-content">
 		<section>
 			<div id="main-info">
+				<header>
+					<h1> Banking 103.1: Deposit Slip</h1>
+				</header>
 				<article>
-					<header>
-						<h1 id="format2"> Banking 103: Actions & Activities </h1>
-					</header>
-						<h2> Banking action and activity video will be placed here. </h2>
-						<h3> Below is the transcript: </h3>
-						
-						<h3> Deposit Slips </h3>
-						<p>  The deposit slip allows you to deposit checks, cash/coins, and make withdrawals at a bank using a teller. 
-						While not all deposit slips are exactly the same, this tutorial will help you know what to look for when filling 
-						out a deposit slip. There will be an opportunity to practice what you learn in the next few screens. When 
-						completing the deposit slip, you must select which account you will be depositing money into by marking the 
-						checking or savings box at the top of the slip. Next, write your ten-digit account number in the boxes provided. 
-						Print your first and last name, address, but do not sign the deposit-slip yet. You must sign the slip in front 
-						of the bank teller for it to be valid.  Next, print the date, the total amount of cash/coins you will be depositing,
-						the total amount of all the checks combined, and subtotal the cash and check amounts.  If you would like to withdraw 
-						any money, you will write in the amount in the Less Cash Rec'vd.  Next, you will subtract the Less Cash Rec'vd from 
-						the Subtotal to calcuate your final total that you will write in the bottom box.</p>
-						
-						<h3> Checks </h3>
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique neque faucibus consectetur tempor. 
-						Fusce eleifend et metus sed dignissim. Pellentesque ullamcorper lectus leo, placerat rhoncus justo tincidunt sit amet. 
-						Mauris condimentum interdum quam, at facilisis nisi ultricies at. Nunc magna elit, egestas venenatis mauris eget, 
-						lobortis semper sapien. Donec mattis facilisis pulvinar. Vivamus elementum mi sapien, quis bibendum dui iaculis fringilla. 
-						Sed id tempor magna. Cras mauris ipsum, euismod ut accumsan et, viverra et orci. Maecenas imperdiet condimentum velit, 
-						nec sodales ante lacinia eu. Quisque ut lacus posuere, euismod erat imperdiet, gravida ex. Curabitur eget dui diam. 
-						Quisque sit amet facilisis sem. Donec a iaculis ligula. Integer eu vehicula libero.<p>
-						
-						<h3> Registers </h3>
-						
-						<p>Fusce interdum risus id mollis finibus. Proin eget nunc varius, placerat ipsum sit amet, lacinia metus. Sed mollis 
-						lectus urna, ut commodo dui consectetur at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet 
-						velit sed nunc gravida, nec porta libero vehicula. Pellentesque pulvinar imperdiet venenatis. Donec non bibendum risus, 
-						vitae bibendum sem. Fusce ac augue imperdiet, convallis lorem vel, viverra nisi. In hac habitasse platea dictumst. 
-						Mauris maximus augue urna, consequat convallis turpis commodo eget. Integer imperdiet risus ut nulla elementum iaculis. 
-						Vivamus magna tellus, vulputate ac dictum ut, egestas vitae sapien. Quisque eget orci sapien. Donec quis nulla sollicitudin, 
-						placerat eros nec, fermentum lacus.</p>
-						
-						<br/>
-						<br/>
-						<br/>
-
+					<p> Deposit the birthday money and paycheck by dragging the elements below to the correct location on the deposit-slip. </p><br/>
+				
+				<form name="dd1" onsubmit="javascript:processForm(); return false;"> 
+					<div> 
+					<img src="images/deposit-slip.jpg" id="background" alt="Deposit Slip" title="Deposit slip practice">
+	
+					<table id="space">
+						<tr>
+							<td>
+					 			<div id="d1" class="dragger1" draggable="true" 
+				     			ondragstart="return startDrag( event )"
+				     			ondragend="return endDrag( event )"> <img src="images/deposit-slip1.jpg"
+				     			alt="Deposit slip fill-in" title="Drag image to check." border='1' value="0"></div><br/>
+				     		</td>
+				     		
+				     		<td>  
+				     			<div id="d2" class="dragger1" draggable="true"
+				     			ondragstart="return startDrag( event )"
+				     			ondragend="return endDrag( event )"> <img src="images/deposit-slip2.jpg" 
+				     			alt="Deposit slip fill-in" title="Drag image to check." border='1' value="1"></div><br/> 
+				     		</td>
+				     	</tr>                      
+				 				
+				 		<tr>
+				 			<td>
+				 				<div id="d3" class="dragger1" draggable="true"
+				     			ondragstart="return startDrag( event )"
+				     			ondragend="return endDrag( event )"><img src="images/deposit-slip3.jpg" 
+				     			alt="Deposit slip fill-in" title="Drag image to check." border='1' value="2" ></div><br/> 
+				     		</td>
+				     		 
+					 		<td>	
+					 			<div id="d4" class="dragger1" draggable="true"
+				     			ondragstart="return startDrag( event )"
+				     			ondragend="return endDrag( event )" ><img src="images/deposit-slip4.jpg" 
+				     			alt="Deposit slip fill-in" title="Drag image to check." border='1' value="3"></div><br/>
+				     		</td>
+				     	</tr>
+				     </table>  
+					</div>
+				
+				    
+					<div>
+				     	<div id="db1" value="0" class="draggerbay1" 
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )">.</div><br/>                        
+				 		<div id="db2" value="2" class="draggerbay2"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )">.</div><br/>  
+					 	<div id="db3" value="3" class="draggerbay3"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )">.</div><br/> 
+					 	<div id="db4" value="1" class="draggerbay4"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )">.</div><br/>  
+					</div>
+						<p id="response">&nbsp;</p>
+						<input type="reset" value="Reset"/>
+						<input type="submit" name="button" value="Submit Your Answer"/><br/><br/><br/><br/>
+				</form>
 				</article>
-			</div>
-			<div id="aside-info">
+			<div id="activity-aside-info">
 				<aside>
 					<header>
 						<p id="aside-title-audio">Audio</p>
@@ -90,18 +115,20 @@
 						<p id="aside-title-audio">Captions</p>
 					</header>
 				<div id="transcript">
-					The actions and activities video will help you better understand how to complete deposit slips, checks, and registers 
-					by walking you through the process. 
+					Complete the check by dragging the elements to the left to the correct location on the check image. 
+					Then scroll down and click the submit button.
 				</div>
 				</aside>
 			</div>
+			</div>
 		</section>
+		
+       </div>
 		
 		<div id="navigation">
 			<nav>
-				<a href="banking-references.html"> References</a>
+				<a href="banking-references.html"> References </a>
 			</nav>
-		</div>
 		</div>
 	</body>
 </html>

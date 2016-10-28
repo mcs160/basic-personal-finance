@@ -3,14 +3,13 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
-		<link href="styles/drag-and-drop-styles2.css" rel="stylesheet" type="text/css"/>
-		<script src="scripts/drag-and-drop2.js" lang="javascript"></script>
-		
+		<link href="styles/drag-and-drop-styles3.css" rel="stylesheet" type="text/css"/>
+		<script src="scripts/drag-and-drop3.js" lang="javascript"></script>
 		
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
-		<body onload="javascript:parent.visitTopic11()">
+		<body onload="javascript:parent.visitPage11()">
 		<div id="banner">
 		<header>
 			<img src="images/logo.jpg" alt="logo" title="Basic Personal Finance logo"/> 
@@ -21,11 +20,11 @@
 			<nav>
 				<ul class="sub-navigation">
 					<li><a href="page-01.html"> Home </a></li>
-    				<li><a href="page-09.html"> Bank 103 </a></li>
-    				<li><a href="page-10.html"> Bank 103.1 </a></li>
-    				<li><a href="page-11.html" id="activelink"> Bank 103.2 </a></li>
-    				<li><a href="page-12.html"> Bank 103.3 </a></li>
-    				<li><a href="page-13.html"> Bank 103.4 </a></li>
+    				<li><a href="page-08.html"> Bank 103 </a></li>
+    				<li><a href="page-09.html"> Bank 103.1 </a></li>
+    				<li><a href="page-10.html"> Bank 103.2 </a></li>
+    				<li><a href="page-11.html" id="activelink"> Bank 103.3 </a></li>
+    				<li><a href="page-12.html"> Bank 103.4 </a></li>
     				<li><a href="quiz-1.html" id="quiz-link"> Quiz </a></li>
     			</ul>
 			</nav>
@@ -36,27 +35,27 @@
 			<div id="main-info">
 				<article>
 					<header>
-						<h1> Banking 103.2: Check </h1>
+						<h1> Banking 103.3: Register</h1>
 					</header>
-					<p> Write a check to pay for groceries by dragging the elements below to the correct location on the check image.</p><br/>
-				
-				<form name="dd2" onsubmit="javascript:processForm(); return false;">  	
+					<p> Find out how much money is in the account.  Balance the account by dragging the elements below to the correct location on the register.</p><br/>
+						
+				<form name="dd3" onsubmit="javascript:processForm(); return false;">  	
 				<div>
-					<img src="images/check.jpg" alt="Check" id="background" title="Check practice"/> 	
+					<img src="images/balance-register.jpg" id="background" alt="Register" title="Balance practice"/> 	
 					<table id="space">
 						<tr>
 							<td>
 					 			<div id="d1" class="dragger1" draggable="true" 
 				     			ondragstart="return startDrag( event )"
-				     			ondragend="return endDrag( event )"><img src="images/check-1.jpg" 
-				     			alt="Deposit slip fill-in" title="Drag image to deposit slip." border='1' value="2"></div><br/>
+				     			ondragend="return endDrag( event )"><img src="images/register-1.jpg" 
+				     			alt="Deposit slip fill-in" title="Drag image to register." border='1' value="2"></div><br/>
 				     		</td>
 				     		
 				     		<td>  
 				     			<div id="d1" class="dragger1" draggable="true" 
 				     			ondragstart="return startDrag( event )"
-				     			ondragend="return endDrag( event )"><img src="images/check-2.jpg" 
-				     			alt="Deposit slip fill-in" title="Drag image to deposit slip." border='1' value="3"></div><br/>
+				     			ondragend="return endDrag( event )"><img src="images/register-2.jpg"
+				     			alt="Deposit slip fill-in" title="Drag image to register." border='1' value="2"></div><br/>
 				     		</td>
 				     	</tr>                      
 				 				
@@ -64,15 +63,15 @@
 				 			<td>
 				 				<div id="d1" class="dragger1" draggable="true" 
 				     			ondragstart="return startDrag( event )"
-				     			ondragend="return endDrag( event )"><img src="images/check-3.jpg" 
-				     			alt="Deposit slip fill-in" title="Drag image to deposit slip." border='1' value="1"></div><br/>
+				     			ondragend="return endDrag( event )"><img src="images/register-3.jpg" 
+				     			alt="Deposit slip fill-in" title="Drag image to register." border='1' value="2"></div><br/> 
 				     		</td>
 				     		 
 					 		<td>	
 					 			<div id="d1" class="dragger1" draggable="true" 
 				     			ondragstart="return startDrag( event )"
-				     			ondragend="return endDrag( event )"><img src="images/check-4.jpg" 
-				     			alt="Deposit slip fill-in" title="Drag image to deposit slip." border='1' value="0"></div><br/>
+				     			ondragend="return endDrag( event )"><img src="images/register-4.jpg" 
+				     			alt="Deposit slip fill-in" title="Drag image to register." border='1' value="2"></div><br/>
 				     		</td>
 				     	</tr>
 				     </table>  
@@ -95,12 +94,12 @@
 					 	<div id="db4" value="0" class="draggerbay4"
 				     		ondrop="return dropDragger( event )"
 				     		ondragover="return false"
-				     		ondragenter="return enterDragger( event )">.</div><br/>  
-					</div>
-				<p id="response">&nbsp;</p>
-				<input type="submit" name="button" value="Submit Your Answer"/><br/></br/><br/><br/>
+				     		ondragenter="return enterDragger( event )">.</div>.<br/>
+				     </div>
+						<p id="response">&nbsp;</p>
+						<input type="submit" name="button" value="Submit Your Answer"/><br/><br/><br/><br/>
 				</form>
-				</article>
+			</article>
 			<div id="activity-aside-info">
 				<aside>
 					<header>
@@ -122,7 +121,7 @@
 			</div>
 			</div>
 		</section>
-	
+		
 		<div id="navigation">
 			<nav>
 				<a href="banking-references.html"> References</a>

@@ -141,6 +141,12 @@ a:hover {
     color: white;
 }
 
+.quiz-navigation
+{
+  font-family: Arial, Verdana, serif;
+  font-size: 16px;
+}
+
 .sub-navigation 
 {
     list-style-type: none;
