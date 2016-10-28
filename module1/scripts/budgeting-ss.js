@@ -1,12 +1,12 @@
-var heading = new Array( "Income", "Spending", "Debit Card", "Checks", "Debit Card" );
+var heading = new Array( "Income", "Expenditures", "Calculate", "Prioritize", "Review", "Commitment" );
 
-var caption = new Array( "Determine your monthly income.", "Track spending each month, such as bills and regularly purchase items.", "Categorize spending, such as savings, housing, utilities, transportation, food, clothing, entertainment, etc.", "Calculate what you currently spend on each item as a percentage of monthly income.", "Then determine your priorities. How much of your income do you want to spend on certain categories?", "Keep track of your transactions and regularly review your bank statements.", "Staying on track with your spending plan is a great way to manage your money. You should have a good idea of where your money goes and how much you actually have." );
+var caption = new Array( "Determine your monthly income, or the amount of money that is deposited into your account each month.", "Track your spending, or expenditures, each month, such as bills and regularly purchased items.", "Categorize your spending, such as savings, housing, utilities, transportation, food, clothing, schooling, entertainment, etc. Then calulate the percentage of your monthly income each category uses in order to better understand where your money goes.", "Next determine your priorities. How much of your income do you want to spend on certain categories?", "Keep track of your transactions and regularly review your bank statements.", "Staying on track with your spending plan is a great way to manage your money. You should have a good idea of where your money goes and how much you actually have." );
 
-var pics = new Array( "images/budgeting-1.jpg", "images/budgeting-2.jpg", "images/budgeting-3.jpg", "images/budgeting-2.jpg", "images/budgeting-3.jpg" );
+var pics = new Array( "images/budgeting-1.jpg", "images/budgeting-2.jpg", "images/budgeting-3.jpg", "images/budgeting-4.jpg", "images/budgeting-5.jpg", "images/budgeting-6.jpg" );
 
-var alt = new Array( "Direct Deposit", "Checks", "Debit Card", "Checks", "Debit Card" );
+var alt = new Array(  "Income", "Expenditures", "Calculate", "Prioritize", "Review", "Commitment"  );
 
-var title = new Array( "Direct Deposit", "Checks", "Debit Card", "Checks", "Debit Card" );
+var title = new Array(  "Income", "Expenditures", "Calculate", "Prioritize", "Review", "Commitment"  );
 
 var index = 0;
 
@@ -14,9 +14,9 @@ function goNext()
 {
 	index = index + 1;
 	
-	if( index == 3 )
+	if( index == 6 )
 	{
-		index = 2;
+		index = 5;
 		}
 
 	document.getElementById( "heading" ).innerHTML = heading[ index ];
