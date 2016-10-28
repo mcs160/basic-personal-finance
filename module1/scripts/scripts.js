@@ -39,9 +39,9 @@ function startCourse()
     		sessionStorage.setItem( "visitPage10", "unvisited" );
     		sessionStorage.setItem( "visitPage11", "unvisited" );
     		sessionStorage.setItem( "visitPage12", "unvisited" );
+    	
         }
 	}
-
 	
 	// initializeSCORM after the OLM environment has been set up
 	initializeSCORM();
@@ -96,29 +96,30 @@ function finishCourse()
 
 function checkAllVisited()
 {
-	var page1 = sessionStorage.setItem( "visitPage1", "visited" );
-	var page2 = sessionStorage.setItem( "visitPage2", "unvisited" );
-	var page3 = sessionStorage.setItem( "visitPage3", "unvisited" );
-	var page4 = sessionStorage.setItem( "visitPage4", "unvisited" );
-	var page5 = sessionStorage.setItem( "visitPage5", "unvisited" );
-	var page6 = sessionStorage.setItem( "visitPage6", "unvisited" );
-	var page7 = sessionStorage.setItem( "visitPage7", "unvisited" );
-	var page8 = sessionStorage.setItem( "visitPage8", "unvisited" );
-	var page9 = sessionStorage.setItem( "visitPage9", "unvisited" );
-	var	page10 = sessionStorage.setItem( "visitPage10", "unvisited" );
-	var page11 = sessionStorage.setItem( "visitPage11", "unvisited" );
-	var page12 = sessionStorage.setItem( "visitPage12", "unvisited" );
+	var page1 = sessionStorage.getItem( "visitPage1" );
+	var page2 = sessionStorage.getItem( "visitPage2" );
+	var page3 = sessionStorage.getItem( "visitPage3" );
+	var page4 = sessionStorage.getItem( "visitPage4" );
+	var page5 = sessionStorage.getItem( "visitPage5" );
+	var page6 = sessionStorage.getItem( "visitPage6" );
+	var page7 = sessionStorage.getItem( "visitPage7" );
+	var page8 = sessionStorage.getItem( "visitPage8" );
+	var page9 = sessionStorage.getItem( "visitPage9" );
+	var page10 = sessionStorage.getItem( "visitPage10" );
+	var page11 = sessionStorage.getItem( "visitPage11" );
+	var page12 = sessionStorage.getItem( "visitPage12" );
+	
 	
 	if ( page1 == "visited" && page2 == "visited" && page3 == "visited" && page4 == "visited" && page5 == "visited" 
-		&& page6 == "visited" && page7 == "visited" && page8 == "visited" && page9 == "visited" 
-		&& page10 == "visited" && page11 == "visited" && page12 == "visited" )
+		&& page6 == "visited" && page7 == "visited" && page8 == "visited" && page9 == "visited" && page10 == "visited" 
+		&& page11 == "visited" && page12 == "visited" )
 	{
 		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline";	
 	}
 }
 
 function visitPage1()
-
+{
 	sessionStorage.setItem( "visitPage1", "visited" );
 	checkAllVisited (); 
 }
@@ -126,25 +127,25 @@ function visitPage1()
 function visitPage2()
 {
 	sessionStorage.setItem( "visitPage2", "visited" );
-	checkAllVisited (); 
+	checkAllVisited ();
 }
 
 function visitPage3()
 {
 	sessionStorage.setItem( "visitPage3", "visited" );
-	checkAllVisited (); 
+	checkAllVisited ();
 }
 
 function visitPage4()
 {
 	sessionStorage.setItem( "visitPage4", "visited" );
-	checkAllVisited (); 
+	checkAllVisited ();
 }
 
 function visitPage5()
 {
 	sessionStorage.setItem( "visitPage5", "visited" );
-	checkAllVisited (); 
+	checkAllVisited ();
 }
 
 function visitPage6()
@@ -156,25 +157,25 @@ function visitPage6()
 function visitPage7()
 {
 	sessionStorage.setItem( "visitPage7", "visited" );
-	checkAllVisited (); 
+	checkAllVisited ();
 }
 
 function visitPage8()
 {
 	sessionStorage.setItem( "visitPage8", "visited" );
-	checkAllVisited (); 
+	checkAllVisited ();
 }
 
 function visitPage9()
 {
 	sessionStorage.setItem( "visitPage9", "visited" );
-	checkAllVisited (); 
+	checkAllVisited ();
 }
 
 function visitPage10()
 {
 	sessionStorage.setItem( "visitPage10", "visited" );
-	checkAllVisited (); 
+	checkAllVisited ();
 }
 
 function visitPage11()
@@ -186,7 +187,6 @@ function visitPage11()
 function visitPage12()
 {
 	sessionStorage.setItem( "visitPage12", "visited" );
-	checkAllVisited (); 
+	checkAllVisited ();
 }
-
 
