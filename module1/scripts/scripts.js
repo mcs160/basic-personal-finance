@@ -114,7 +114,7 @@ function checkAllVisited()
 		&& page6 == "visited" && page7 == "visited" && page8 == "visited" && page9 == "visited" && page10 == "visited" 
 		&& page11 == "visited" && page12 == "visited" )
 	{
-		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline";	
+		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "block";	
 	}
 }
 
