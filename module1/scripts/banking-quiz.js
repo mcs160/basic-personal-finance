@@ -45,6 +45,8 @@ var score = numberCorrect/ 5 * 100;
 if ( score >= 70 )
 {
 	alert ("You pass!");
+	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "certificate" ).style.display = "block";	
+}
 }
 
 else
@@ -53,3 +55,4 @@ else
 }
 	
 }
+
