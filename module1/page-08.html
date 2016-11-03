@@ -3,11 +3,13 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
-		
+		<link href="styles/drag-and-drop-styles.css" rel="stylesheet" type="text/css"/>
+		<script src="scripts/drag-and-drop.js" lang="javascript"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
 		<body onload="javascript:parent.visitPage8()">
+		<body onload="javascript:parent.visitDragnDrop()">
 		<div id="banner">
 		<header>
 			<img src="images/logo.jpg" alt="logo" title="Basic Personal Finance logo"/> 
@@ -18,11 +20,10 @@
 			<nav>
 				<ul class="sub-navigation">
 					<li><a href="page-01.html"> Home </a></li>
-    				<li><a href="page-08.html" id="activelink"> Bank 103 </a></li>
-    				<li><a href="page-09.html"> Bank 103.1 </a></li>
-    				<li><a href="page-10.html"> Bank 103.2 </a></li>
-    				<li><a href="page-11.html"> Bank 103.3 </a></li>
-    				<li><a href="page-12.html"> Bank 103.4 </a></li>
+    				<li><a href="page-07.html"> Banking 103 </a></li>
+    				<li><a href="page-08.html"  id="activelink"> Banking 103.1 </a></li>
+    				<li><a href="page-9.html"> Banking 103.2 </a></li>
+    				<li><a href="page-10.html"> Banking 103.3 </a></li>
     				<li><a href="quiz-1.html" id="quiz-link"> Quiz </a></li>
     			</ul>
 			</nav>
@@ -31,14 +32,75 @@
 		<div id="main-content">
 		<section>
 			<div id="main-info">
+				<header>
+					<h1> Banking 103.1: Deposit Slip</h1>
+				</header>
 				<article>
-					<header>
-						<h1 id="format2"> Banking 103: Actions & Activities </h1>
-					</header>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/nacn-TtRY5s" frameborder="0" allowfullscreen></iframe>
+					<p> Deposit the birthday money and paycheck by dragging the elements below to the correct location on the deposit-slip. </p><br/>
+				
+				<form name="dd1" onsubmit="javascript:processForm(); return false;"> 
+					<div> 
+					<img src="images/deposit-slip.jpg" id="background" alt="Deposit Slip" title="Deposit slip practice">
+	
+					<table id="space">
+						<tr>
+							<td>
+					 			<div id="d1" class="dragger1" draggable="true" 
+				     			ondragstart="return startDrag( event )"
+				     			ondragend="return endDrag( event )"> <img src="images/deposit-slip1.jpg"
+				     			alt="Deposit slip fill-in" title="Drag image to check." border='1' value="0"></div><br/>
+				     		</td>
+				     		
+				     		<td>  
+				     			<div id="d2" class="dragger1" draggable="true"
+				     			ondragstart="return startDrag( event )"
+				     			ondragend="return endDrag( event )"> <img src="images/deposit-slip2.jpg" 
+				     			alt="Deposit slip fill-in" title="Drag image to check." border='1' value="1"></div><br/> 
+				     		</td>
+				     	</tr>                      
+				 				
+				 		<tr>
+				 			<td>
+				 				<div id="d3" class="dragger1" draggable="true"
+				     			ondragstart="return startDrag( event )"
+				     			ondragend="return endDrag( event )"><img src="images/deposit-slip3.jpg" 
+				     			alt="Deposit slip fill-in" title="Drag image to check." border='1' value="2" ></div><br/> 
+				     		</td>
+				     		 
+					 		<td>	
+					 			<div id="d4" class="dragger1" draggable="true"
+				     			ondragstart="return startDrag( event )"
+				     			ondragend="return endDrag( event )" ><img src="images/deposit-slip4.jpg" 
+				     			alt="Deposit slip fill-in" title="Drag image to check." border='1' value="3"></div><br/>
+				     		</td>
+				     	</tr>
+				     </table>  
+					</div>
+				
+				    
+					<div>
+				     	<div id="db1" value="0" class="draggerbay1" 
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )">.</div><br/>                        
+				 		<div id="db2" value="2" class="draggerbay2"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )">.</div><br/>  
+					 	<div id="db3" value="3" class="draggerbay3"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )">.</div><br/> 
+					 	<div id="db4" value="1" class="draggerbay4"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )">.</div><br/>  
+					</div>
+						<p id="response">&nbsp;</p>
+						<input type="submit" name="button" value="Submit Your Answer"/><br/><br/><br/><br/>
+				</form>
 				</article>
-			</div>
-			<div id="aside-info">
+			<div id="activity-aside-info">
 				<aside>
 					<header>
 						<p id="aside-title-audio">Audio</p>
@@ -52,18 +114,20 @@
 						<p id="aside-title-audio">Captions</p>
 					</header>
 				<div id="transcript">
-					The actions and activities video will help you better understand how to complete deposit slips, checks, and registers 
-					by walking you through the process. 
+					Complete the deposit slip by dragging the elements to the correct location on the image. 
+					Then scroll down and click the submit button.
 				</div>
 				</aside>
 			</div>
+			</div>
 		</section>
+		
+       </div>
 		
 		<div id="navigation">
 			<nav>
-				<a href="banking-references.html"> References</a>
+				<a href="banking-references.html"> References </a>
 			</nav>
-		</div>
 		</div>
 	</body>
 </html>
