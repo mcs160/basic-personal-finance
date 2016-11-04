@@ -1,7 +1,5 @@
 function processForm()
 {
- var score = 0;
-		
  var numberCorrect = 0;
 	
  var q1 = document.forms.quiz1.question1;
