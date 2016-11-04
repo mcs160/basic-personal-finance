@@ -52,13 +52,4 @@ else
 {
 	alert ("Please reset the quiz and try again!");		
 }
-
-var certificateScore = score >=70;
-
-if  (certificateScore >=70 )
-{
-	document.getElementById( "myInput" ).contentWindow.document.getElementById( "certificate" ).style.display = "block";	
-}	
-	
 }
-
