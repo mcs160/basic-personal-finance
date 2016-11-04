@@ -53,3 +53,4 @@ else
 	alert ("Please reset the quiz and try again!");		
 }
 }
+
