@@ -1,7 +1,7 @@
 <!--
 The purpose of this page is to list the collective references utilized throughout the project.
 
-CSS File from 201610191800
+CSS File from 11/4/16 6:06p.m.
 
 body
 {
@@ -11,47 +11,76 @@ body
 	font-family: Arial;
 }
 
+h1
+{
+	 font-family: Arial, Verdana, serif;
+	 font-size: 20px;
+}
+
+.size
+{
+	font-family: Arial, Verdana, serif;
+ 	font-size: 16px;
+}
+
 #banner
 {
-	height: 95px;
+	height: 75px;
 	background:#000033;
 	top: 0px;
 	width: 100%;
-	Line-height: 1.5em;
-	font-family: Georgia, Times, serif;
-	font-size: 48px;
-	color: #ffffff;
-	text-align: left;
 	padding-top: 10px;
-	padding-left: 20px;
+	padding-left: 40px;
+}
+
+.header1
+{
+	  font-family: Arial, Verdana, serif;
+	  font-size: 18px;
 }
 
 #format1 
 {
     background: #cccccc;
     padding: 15px; 
-    width: 700px;
+    width:100%;
     font-size: 24px;
     border-radius: 40px 0px 0px 40px;
     position: relative;
     font-family: Arial, Verdana, serif;
-    top:0px;
-    left: 150px;
+    top: 0px;
+    left: 250px;
 }
 
 #format2 
 {
     background: #00b3b3;
     padding: 15px; 
-    width: 500px;
+    width: 550px;
     font-size: 20px;
     border-radius: 0px 40px 40px 0px;
     position: relative;
     font-family: Arial, Verdana, serif;
-    top:0px;
+    top: 0px;
     left: 0px;
 }
 
+.firstscreen
+{
+	text-indent: 80px;
+	font-size: 16px;
+}
+
+p
+{
+	font-size: 16px;
+}
+
+ul
+{
+	margin-left: 100px;
+	font-size: 16px;
+}
 
 #main-info
 {
@@ -65,6 +94,15 @@ body
 	width: 200px;
 	position: relative;
 	top: 80px;
+	padding-left: 10px;
+}
+
+#activity-aside-info
+{
+	width: 200px;
+	position: absolute;
+	top: 131px;
+	left: 647px;
 	padding-left: 10px;
 }
 
@@ -83,23 +121,62 @@ body
 	margin: 10px;
 }
 
+a:link {
+    color: #008080;
+    text-decoration: none;
+}
+
+a:visited {
+    color:  #00b3b3;
+    text-decoration: none;
+}
+
+a:hover {
+    color:  #990000;
+}
+
+#activelink
+{
+    background-color: #a6a6a6;
+    color: white;
+}
+
+.sub-navigation 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cccccc;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #dddddd;
+}
+
 #navigation
 {
 	background: #000033;	
-	padding: 5px;
-	width: 886px;
+	padding: 10px;
+	width: 100%;
 	float: left;
 	height: 18px;
-}
-
-#sub-navigation
-{
-	background: #cccccc;	
-	padding: 5px;
-	width: 886px;
-	float: left;
-	height: 18px;
-	font-size: 14px;
+	font-size: 16px;
+	padding-left: 10px;
+	position: fixed;
+	bottom: 0px;
 }
 
 #aside-title-audio
@@ -129,5 +206,15 @@ body
 audio
 {
 	width: 230px;
+}
+
+#quiz-link 
+{
+	display: none;
+}
+
+#certificate
+{
+	display: none;
 }
 -->
