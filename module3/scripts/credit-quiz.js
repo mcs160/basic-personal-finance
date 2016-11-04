@@ -44,12 +44,13 @@ if( q5 [ 0 ].checked )
 
 if ( score >= 70 )
 {
-	alert ("You pass!");
+	alert ("Congratulations, you pass!");	
 }
 
 else
 {
 	alert ("Please reset the quiz and try again!");		
 }
-	
+
+parent.reportScores( score );
 }
