@@ -37,7 +37,7 @@ function startCourse()
     		sessionStorage.setItem( "visitPage8", "unvisited" );
     		sessionStorage.setItem( "visitPage9", "unvisited" );
     		sessionStorage.setItem( "visitPage10", "unvisited" );
-    		sessionStorage.setItem( "visitPage25", "unvisited" );   	
+    	
         }
 	}
 	
@@ -120,7 +120,7 @@ function checkAllVisited()
 	
 	
 	if ( page1 == "visited" && page2 == "visited" && page3 == "visited" && page4 == "visited" && page5 == "visited" 
-		&& page6 == "visited" && page7 == "visited" && page8 == "visited" && page9 == "visited" && page10 == "visited" ) 
+		&& page6 == "visited" && page7 == "visited" && page8 == "visited" && page9 == "visited" && page10 == "visited" )
 	{
 		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "block";	
 	}
