@@ -39,12 +39,15 @@ if( q5 [ 1 ].checked )
 
 if ( score >= 70 )
 {
-	alert ("You pass!");
+	alert ("Congratulations, you pass!");
+	location.assign("banking-certificate.html");
 }
 
 else
 {
 	alert ("Please reset the quiz and try again!");		
 }
-	
+
+parent.reportScores( score );
+}	
 }
