@@ -37,9 +37,10 @@ function startCourse()
     		sessionStorage.setItem( "visitPage22", "unvisited" );
     		sessionStorage.setItem( "visitPage23", "unvisited" );
     		sessionStorage.setItem( "visitPage24", "unvisited" );
-    		sessionStorage.setItem( "visitPage25", "unvisited" );  
+    		sessionStorage.setItem( "visitPage25", "unvisited" );
     		sessionStorage.setItem( "visitPage26", "unvisited" );
     		sessionStorage.setItem( "visitPage27", "unvisited" );
+    	
         }
 	}
 	
@@ -123,9 +124,8 @@ function checkAllVisited()
 	var page26 = sessionStorage.getItem( "visitPage26" );
 	var page27 = sessionStorage.getItem( "visitPage27" );
 	
-	
 	if ( page15 == "visited" && page16 == "visited" && page17 == "visited" && page18 == "visited" && page19 == "visited" 
-		&& page20 == "visited" && page21 == "visited" && page22 == "visited" && page23 == "visited" && page24 == "visited" 
+		&& page20 == "visited" && page21 == "visited" && page22 == "visited" && page23 == "visited" && page24 == "visited"
 		&& page25 == "visited" && page26 == "visited" && page27 == "visited" )
 	{
 		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "block";	
@@ -201,7 +201,7 @@ function visitPage25()
 function visitPage26()
 {
 	sessionStorage.setItem( "visitPage26", "visited" );
-	checkAllVisited (); 
+	checkAllVisited ();
 }
 
 function visitPage27()
@@ -209,6 +209,5 @@ function visitPage27()
 	sessionStorage.setItem( "visitPage27", "visited" );
 	checkAllVisited ();
 }
-
 
 
