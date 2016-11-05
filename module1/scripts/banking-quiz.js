@@ -26,23 +26,23 @@ if( q3 [ 0 ].checked )
 var q4 = document.forms.quiz1.question4;	
 
 if( q4 [ 2 ].checked )
-{
+{	
 	numberCorrect = numberCorrect + 1;
 }
-
+		 
 var q5 = document.forms.quiz1.question5;	
-
+		 
 if( q5 [ 2 ].checked )
 {
 	numberCorrect = numberCorrect + 1;
 }
 		 
-var score = numberCorrect/ 5 * 100;
+ var score = numberCorrect/ 5 * 100;	
 
 if ( score >= 70 )
 {
 	alert ("Congratulations, you pass!");
-	location.assign("banking-certificate.html");
+	location.assign("credit-certificate.html");
 }
 
 else
@@ -52,5 +52,3 @@ else
 
 parent.reportScores( score );
 }
-}
-
