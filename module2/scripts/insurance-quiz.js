@@ -3,41 +3,46 @@ function processForm()
  var numberCorrect = 0;
 	
  var q1 = document.forms.quiz1.question1;
+ 
  if( q1 [ 0 ].checked )
 {
  numberCorrect = numberCorrect + 1;
 }
  
  var q2 = document.forms.quiz1.question2;	
+
  if( q2 [ 0 ].checked )
 {	
 	numberCorrect = numberCorrect + 1;
 }
 		 
- var q3 = document.forms.quiz1.question3;		 
- if( q3 [ 2 ].checked )
+ var q3 = document.forms.quiz1.question3;	
+		 
+if( q3 [ 2 ].checked )
 {
 	numberCorrect = numberCorrect + 1;
 }
 
 var q4 = document.forms.quiz1.question4;	
+
 if( q4 [ 0 ].checked )
 {	
 	numberCorrect = numberCorrect + 1;
 }
 		 
-var q5 = document.forms.quiz1.question5;		 
+var q5 = document.forms.quiz1.question5;	
+		 
 if( q5 [ 1 ].checked )
 {
 	numberCorrect = numberCorrect + 1;
 }
 		 
-var score = numberCorrect/ 5 * 100;	
+ var score = numberCorrect/ 5 * 100;	
 
 if ( score >= 70 )
 {
 	alert ("Congratulations, you pass!");
-	location.assign("insurance-certificate.html");
+	location.assign("credit-certificate.html");
 }
 
 else
@@ -46,5 +51,4 @@ else
 }
 
 parent.reportScores( score );
-}	
 }
