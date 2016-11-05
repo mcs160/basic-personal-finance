@@ -37,7 +37,7 @@ var score = numberCorrect/ 5 * 100;
 if ( score >= 70 )
 {
 	alert ("Congratulations, you pass!");
-	location.assign("banking-certificate.html");
+	location.assign("insurance-certificate.html");
 }
 
 else
