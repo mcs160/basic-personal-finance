@@ -38,9 +38,6 @@ if( q5 [ 2 ].checked )
 }
 		 
 var score = numberCorrect/ 5 * 100;
-{
-	alert (You pass!);
-}
 
 if ( score >= 70 )
 {
