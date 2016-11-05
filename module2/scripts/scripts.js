@@ -37,10 +37,9 @@ function startCourse()
     		sessionStorage.setItem( "visitPage22", "unvisited" );
     		sessionStorage.setItem( "visitPage23", "unvisited" );
     		sessionStorage.setItem( "visitPage24", "unvisited" );
-    		sessionStorage.setItem( "visitPage25", "unvisited" );
+    		sessionStorage.setItem( "visitPage25", "unvisited" );  
     		sessionStorage.setItem( "visitPage26", "unvisited" );
     		sessionStorage.setItem( "visitPage27", "unvisited" );
-    	
         }
 	}
 	
@@ -141,7 +140,7 @@ function visitPage15()
 
 function visitPage16()
 {
-	sessionStorage.setItem( "visitPage16", "visited" );
+	sessionStorage.setItem( "visitPag16", "visited" );
 	checkAllVisited ();
 }
 
@@ -196,13 +195,13 @@ function visitPage24()
 function visitPage25()
 {
 	sessionStorage.setItem( "visitPage25", "visited" );
-	checkAllVisited (); 
+	checkAllVisited ();
 }
 
 function visitPage26()
 {
 	sessionStorage.setItem( "visitPage26", "visited" );
-	checkAllVisited ();
+	checkAllVisited (); 
 }
 
 function visitPage27()
@@ -210,4 +209,6 @@ function visitPage27()
 	sessionStorage.setItem( "visitPage27", "visited" );
 	checkAllVisited ();
 }
+
+
 
