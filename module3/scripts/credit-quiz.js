@@ -41,7 +41,8 @@ if( q5 [ 0 ].checked )
 
 if ( score >= 70 )
 {
-	alert ("Congratulations, you pass!");	
+	alert ("Congratulations, you pass!");
+	location.assign("credit-certificate.html");
 }
 
 else
