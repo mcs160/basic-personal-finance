@@ -140,7 +140,7 @@ function visitPage15()
 
 function visitPage16()
 {
-	sessionStorage.setItem( "visitPag16", "visited" );
+	sessionStorage.setItem( "visitPage16", "visited" );
 	checkAllVisited ();
 }
 
