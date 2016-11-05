@@ -3,7 +3,7 @@ function processForm()
  var numberCorrect = 0;
 	
  var q1 = document.forms.quiz1.question1;
- if( q1 [ 1 ].checked )
+ if( q1 [ 0 ].checked )
 {
  numberCorrect = numberCorrect + 1;
 }
@@ -15,7 +15,7 @@ function processForm()
 }
 		 
  var q3 = document.forms.quiz1.question3;		 
- if( q3 [ 1 ].checked )
+ if( q3 [ 2 ].checked )
 {
 	numberCorrect = numberCorrect + 1;
 }
