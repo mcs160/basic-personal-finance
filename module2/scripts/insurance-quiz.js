@@ -32,10 +32,7 @@ if( q5 [ 1 ].checked )
 	numberCorrect = numberCorrect + 1;
 }
 		 
- var score = numberCorrect/ 5 * 100;	
-{
-	alert( score );
-}
+var score = numberCorrect/ 5 * 100;	
 
 if ( score >= 70 )
 {
