@@ -42,7 +42,7 @@ if( q5 [ 2 ].checked )
 if ( score >= 70 )
 {
 	alert ("Congratulations, you pass!");
-	location.assign("credit-certificate.html");
+	location.assign("banking-certificate.html");
 }
 
 else
