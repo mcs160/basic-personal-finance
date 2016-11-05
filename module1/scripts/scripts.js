@@ -118,7 +118,6 @@ function checkAllVisited()
 	var page9 = sessionStorage.getItem( "visitPage9" );
 	var page10 = sessionStorage.getItem( "visitPage10" );
 	
-	
 	if ( page1 == "visited" && page2 == "visited" && page3 == "visited" && page4 == "visited" && page5 == "visited" 
 		&& page6 == "visited" && page7 == "visited" && page8 == "visited" && page9 == "visited" && page10 == "visited" )
 	{
