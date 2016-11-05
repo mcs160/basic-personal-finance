@@ -38,14 +38,11 @@ if( q5 [ 2 ].checked )
 }
 		 
 var score = numberCorrect/ 5 * 100;	
-{
-	alert( score );
-}
 
 if ( score >= 70 )
 {
-	alert ("You pass!");	
-}
+	alert ("Congratulations, you pass!");
+	location.assign("banking-certificate.html");
 }
 
 else

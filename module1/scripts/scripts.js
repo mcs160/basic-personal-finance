@@ -93,7 +93,7 @@ function reportScores( score )
 	oScorm.set("cmi.core.score.max", 100 ); 
 	oScorm.set( "cmi.core.lesson_status", "passed" );
 	
-	alert( "Reported " + score + " as your score." );
+	alert( "A score of " + score + " has been reported." );
 	
 	oScorm.save();
 }
