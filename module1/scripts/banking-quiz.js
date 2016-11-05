@@ -37,7 +37,10 @@ if( q5 [ 2 ].checked )
 	numberCorrect = numberCorrect + 1;
 }
 		 
-var score = numberCorrect/ 5 * 100;	
+var score = numberCorrect/ 5 * 100;
+{
+	alert (You pass!);
+}
 
 if ( score >= 70 )
 {
@@ -51,5 +54,6 @@ else
 }
 
 parent.reportScores( score );
+}
 }
 
