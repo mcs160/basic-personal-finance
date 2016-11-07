@@ -2,35 +2,35 @@ function processForm()
 {
  var numberCorrect = 0;
 	
- var q1 = document.forms.quiz1.question1;
+ var q1 = document.forms.quiz2.question1;
  
  if( q1 [  ].checked )
 {
  numberCorrect = numberCorrect + 1;
 }
  
- var q2 = document.forms.quiz1.question2;	
+ var q2 = document.forms.quiz2.question2;	
 
  if( q2 [ 0 ].checked )
 {	
 	numberCorrect = numberCorrect + 1;
 }
 		 
- var q3 = document.forms.quiz1.question3;	
+ var q3 = document.forms.quiz2.question3;	
 		 
 if( q3 [ 2 ].checked )
 {
 	numberCorrect = numberCorrect + 1;
 }
 
-var q4 = document.forms.quiz1.question4;	
+var q4 = document.forms.quiz2.question4;	
 
 if( q4 [ 0 ].checked )
 {	
 	numberCorrect = numberCorrect + 1;
 }
 		 
-var q5 = document.forms.quiz1.question5;	
+var q5 = document.forms.quiz2.question5;	
 		 
 if( q5 [ 1 ].checked )
 {
