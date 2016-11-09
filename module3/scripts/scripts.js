@@ -101,6 +101,15 @@ function reportScores( score )
 	oScorm.save();
 }
 
+if (score >=70)
+{
+		oScorm.set( "cmi.core.lesson_status", "passed" );	
+}
+
+else	
+{
+	
+
 // This function is called when the window is closed.  It saves and quits the course.
 function finishCourse()
 {
