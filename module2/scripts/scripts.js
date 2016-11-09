@@ -89,17 +89,31 @@ function visitCertificate()
 	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "user-name" ).innerHTML = learner_name;
 }
 
+var score = 0;
+	
 function reportScores( score )
 {	
 	oScorm.set("cmi.core.score.raw", score ); 
 	oScorm.set("cmi.core.score.min", 0 ); 
-	oScorm.set("cmi.core.score.max", 100 ); 
-	oScorm.set( "cmi.core.lesson_status", "passed" );
+	oScorm.set("cmi.core.score.max", 100 );
+	oScorm.set( "cmi.core.lesson_status", "passed" );	
 	
 	alert( "A score of " + score + " has been reported." );
 	
 	oScorm.save();
 }
+	
+if (score >=70)
+{
+		oScorm.set( "cmi.core.lesson_status", "passed" );	
+}
+
+else	
+{
+		oScorm.set( "cmi.core.lesson_status", "failed" );	
+}
+
+
 
 // This function is called when the window is closed.  It saves and quits the course.
 function finishCourse()
