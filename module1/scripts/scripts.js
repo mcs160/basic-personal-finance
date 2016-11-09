@@ -86,6 +86,8 @@ function visitCertificate()
 	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "user-name" ).innerHTML = learner_name;
 }
 
+var score = 0;
+	
 function reportScores( score )
 {	
 	oScorm.set("cmi.core.score.raw", score ); 
@@ -107,8 +109,6 @@ else
 {
 		oScorm.set( "cmi.core.lesson_status", "failed" );	
 }
-
-
 
 
 
