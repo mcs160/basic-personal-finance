@@ -98,7 +98,7 @@ function reportScores( score )
 	oScorm.save();
 }
 	
-/*if (score >=70)
+if (score >=70)
 {
 		oScorm.set( "cmi.core.lesson_status", "passed" );	
 }
@@ -108,7 +108,6 @@ else
 		oScorm.set( "cmi.core.lesson_status", "failed" );	
 }
 
-		alert "Reported" + score + "as your score." );*/
 
 
 
