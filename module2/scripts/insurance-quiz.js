@@ -1,17 +1,19 @@
 function processForm()
 {
+ var score = 0;
+
  var numberCorrect = 0;
 	
  var q1 = document.forms.quiz2.question1;
  
- if( q1 [  ].checked )
+ if( q1 [ 0 ].checked )
 {
  numberCorrect = numberCorrect + 1;
 }
  
  var q2 = document.forms.quiz2.question2;	
 
- if( q2 [ 0 ].checked )
+ if( q2 [ 2 ].checked )
 {	
 	numberCorrect = numberCorrect + 1;
 }
