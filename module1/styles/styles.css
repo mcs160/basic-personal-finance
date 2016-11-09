@@ -204,3 +204,8 @@ audio
 {
 	display: none;
 }
+
+#background
+{
+    z-index: -1;
+}
