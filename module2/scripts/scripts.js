@@ -112,7 +112,6 @@ function reportScores( score )
 }
 
 
-
 // This function is called when the window is closed.  It saves and quits the course.
 function finishCourse()
 {
