@@ -8,7 +8,8 @@
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
-		<body onload="cmi.core.student_name()">
+		<!-- <body onload="cmi.core.student_name()"> -->
+		<body onload="javascript:parent.student_name()">
 		<div id="banner">
 		<header>
 			<img src="images/logo.jpg" alt="logo" title="Basic Personal Finance logo"/> 
@@ -18,7 +19,7 @@
 		<div>
 			<nav>
 				<ul class="sub-navigation">
- 					<li><a id="activelink" href="http://ist-utsa.org/moodle/login/index.php" target="_blank"> Moodle </a></li>
+ 					<li><a id="activelink" href="http://ist-utsa.org/moodle/login/index.php" target="_blank"> Moodle </a></li>	
 				</ul>
 			</nav>
 		</div>
@@ -30,7 +31,7 @@
 					<header>
 						<h1> Banking Module Certificate of Completion</h1>
 					</header>
-					<img src="images/banking-certificate.jpg" alt="Banking Module Certificate of Completion" title="Congratulations!"/>
+						<img src="images/banking-certificate.jpg" alt="Banking Module Certificate of Completion" title="Congratulations!"/>
 				</article>
 			</div>
 			<div id="aside-info">
