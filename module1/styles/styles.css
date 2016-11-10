@@ -204,3 +204,10 @@ audio
 {
 	display: none;
 }
+
+#place
+{
+	position: absolute;
+	top: 330px;
+	left: 300px;
+}
