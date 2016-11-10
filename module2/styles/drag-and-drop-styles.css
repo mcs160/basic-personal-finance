@@ -23,7 +23,7 @@
 	height: 90px;
 	width: 275px;
 	font-family: arial;
-	vertical-align: center;
+	vertical-align: middle;
 	cursor: move;
 	ghosting: true;
 }
@@ -40,7 +40,7 @@
 	width: 275px;
 	text-align: center;
 	font-family: arial;
-	vertical-align: center;
+	vertical-align: middle;
 	color: white;
 	background: #000033;
 }
