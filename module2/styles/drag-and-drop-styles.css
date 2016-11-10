@@ -22,7 +22,7 @@
 	padding-top: 5px;
 	text-align: center;
 	height: 75px;
-	width: 200px;
+	width: 250px;
 	font-family: arial;
 	vertical-align: center;
 	cursor: move;
@@ -38,7 +38,7 @@
 {
 	border: dashed thin #000000;
 	height: 80px;
-	width: 200px;
+	width: 250px;
 	font-family: arial;
 	text-align: center;
 	vertical-align: center;
