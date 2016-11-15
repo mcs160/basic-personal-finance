@@ -239,3 +239,8 @@ display: none;
 	top: 330px;
 	left: 280px;
 }
+
+img 
+{
+    vertical-align: middle;
+}
