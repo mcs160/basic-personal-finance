@@ -4,11 +4,14 @@
 		<meta charset="utf-8"/>
 		<title>Insurance Basics</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<link href="styles/drag-and-drop-styles2.css" rel="stylesheet" type="text/css"/>
 		
 		
-		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
-		<body onload="javascript:parent.visitPage22()">
+	
+	<body onload="javascript:parent.visitPage22()">
+	<body onload="javascript:parent.visitDragndrop()">
+	
 		<div id="banner">
 		<header>
 			<img src="images/logo.jpg" alt="logo" title="Basic Personal Finance logo"/> 
@@ -29,37 +32,77 @@
 		</div>
 		<div id="main-content">
 		<section>
-			<div id="main-info">
-				<article>
-					<header>
-						<h1>Insurance 102.2</h1>
-					</header>
-                   <p> ***Policy Hot Spot is being built for this page***</p>
-				</article>
-			</div>
-			<div id="aside-info">
+			<div id="main-info2">
+				
+         		<form name="dd1" onsubmit="javascript:processForm(); return false;">  
+				<p>Directions:  Match the correct rating title to the set of rating factors.</p>
+				
+				<div class="column">
+						<h3>Rating Title</h3>
+					 	<div id="d1" value="3" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>Person</p></div><br/>  
+				     	<div id="d2" value="2" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>Vehicle</p></div><br/>                        
+				 		<div id="d3" value="0" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>Location</p></div><br/>  
+					 	<div id="d4" value="1" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>Lifestyle</p></div><br/>  
+				</div>
+    
+				<div class="column">
+						<h3>Rating Factors</h3>
+				     	<div id="db1" value="0" class="draggerbay" 
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"> </br>Traffic statistics, weather and landscaping.</div><br/>                        
+				 		<div id="db2" value="1" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"> </br>Stability, health, alcohol and drug consumption.</div><br/>  
+					 	<div id="db3" value="2" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"> </br>Year, make, model, series and safety ratings.</div><br/> 
+					 	<div id="db4" value="3" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"> </br>Age, years driving, driving behavior, marital status, credit stability and gender.</div><br/>  
+				</div>
+				<p id="response"></p>
+				<input type="submit" name="button" value="Submit Your Answer"/><br/><br/><br/><br/>
+				</form>
+				
+			<div id="activity-aside-info">
 				<aside>
 					<header>
 						<p id="aside-title-audio">Audio</p>
 					</header>
 						<audio controls autoplay>
-							<source src="audio/testaudio.m4a" type="audio/mpeg">
+							<source src="audio/drag n drop.wav" type="audio/mpeg">
 						</audio>
 					<br/>
+					
 					<header>
 						<p id="aside-title-audio">Captions</p>
 					</header>
 				<div id="transcript">
-					Please hover over each coverage shown on the declarations page for this specific policy example.
+					Please drag and drop the correct rating title to the set of rating factors.
 				</div>
 				</aside>
 			</div>
+			</div>
 		</section>
+		
+       </div>
+	
 		<div id="navigation">
 			<nav>
-    			<a href="insurance-references.html"> References </a>
+     			<a href="insurance-references.html"> References </a>
 			</nav>
-		</div>
 		</div>
 	</body>
 </html>
