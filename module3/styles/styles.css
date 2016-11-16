@@ -22,11 +22,11 @@ h1
 	padding-left: 40px;
 }
 
-.header1
+/*.header1
 {
 	  font-family: Arial, Verdana, serif;
 	  font-size: 18px;
-}
+}*/
 
 #format1 
 {
@@ -62,7 +62,7 @@ h1
 
 p
 {
-	font-size: 16px;
+	font-size: 14px;
 }
 
 ul
