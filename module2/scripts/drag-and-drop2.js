@@ -36,7 +36,7 @@ function processForm()
 	else
 	{
 		// link back to the same page.
-		document.getElementById( "response" ).innerHTML = "Incorrect!  <a href='page26.html'> Click here to try again. </a>";
+		document.getElementById( "response" ).innerHTML = "Incorrect!  <a href='page22.html'>Click here to try again.</a>";
 	}
 }
 
@@ -106,3 +106,4 @@ function enterDragger( evt )
 function endDrag( evt )
 {
 	return false;
+}
