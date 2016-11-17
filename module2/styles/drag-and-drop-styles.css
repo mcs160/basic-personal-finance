@@ -20,7 +20,7 @@
 	border: solid thin #000000;
 	background: #cccccc;
 	text-align: center;
-	height: 100px;
+	height: 95px;
 	width: 275px;
 	font-family: arial;
 	vertical-align: middle;
@@ -36,7 +36,7 @@
 .draggerbay
 {
 	border: dashed thin #000000;
-	height: 100px;
+	height: 95px;
 	width: 275px;
 	text-align: center;
 	font-family: arial;
