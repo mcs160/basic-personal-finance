@@ -13,7 +13,7 @@ function processForm()
  
  var q2 = document.forms.quiz2.question2;	
 
- if( q2 [ 2 ].checked )
+ if( q2 [ 0 ].checked )
 {	
 	numberCorrect = numberCorrect + 1;
 }
