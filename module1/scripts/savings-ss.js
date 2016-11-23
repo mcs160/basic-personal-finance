@@ -1,7 +1,7 @@
 var heading = new Array( "Deposit", "Withdrawal", "ATM" );
 
 var caption = new Array(  "When depositing money at a bank, fill out a deposit slip found at the bank or in the back of your checkbook. Your deposit slip must have the correct account number, date, and the correct currency. Cash and coins need to be separate from checks, and each check should be listed separately and endorsed. Calculate the total deposit, and indicate if you would like cash back.",
-		"In order to make a withdrawal at a teller within your bank, you must complete a withdrawal slip found at the bank or in the back of your checkbook. Make sure your withdrawal slip has the correct account number, date, and amount you wish to withdraw.", 
+		"A withdrawal is removing money from a bank. In order to make a withdrawal at a teller within your bank, you must complete a withdrawal slip found at the bank or in the back of your checkbook. Make sure your withdrawal slip has the correct account number, date, and amount you wish to withdraw.", 
 		"Withdrawals may also be completed from your savings account using your ATM or debit card. Insert or slide your card, depending on the machine, enter your Personal Identification Number (PIN), and select the account from which you wish to withdrawal funds. You can also use the ATM machine to check your balance, transfer funds, and in some cases, make deposits. " );
 
 var pics = new Array( "images/savings-1.jpg", "images/savings-2.jpg", "images/savings-3.jpg" );
