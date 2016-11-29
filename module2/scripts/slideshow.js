@@ -1,7 +1,7 @@
 
 var heading = new Array( "Insurance Policy", "Car Accident", "House Fire", "Funeral", "Indemnification" );
 
-var caption = new Array( "An insurance policy is an agreed upon contract.", "Which pays for injury and damages to others.", "As well damages to the insured's home and personal property.", "Insurance can pay out through a life policy or death benefit from other policies.", "Damages would be paid out in an effort to make the insured whole again." );
+var caption = new Array( "An insurance policy is an agreed upon contract.", "Which pays for injury and damages to others.", "As well as damages to the insured's home and personal property.", "Insurance can pay out through a life policy or death benefit from other policies.", "Damages would be paid out in an effort to make the insured whole again." );
 
 var image = new Array( "images/insurance-policy v2.jpg", "images/car accident v2.jpg", "images/house fire v2.jpg", "images/funeral v2.jpg", "images/Damages v2.jpg" );
 
